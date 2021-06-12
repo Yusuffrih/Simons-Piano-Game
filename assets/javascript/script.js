@@ -10,9 +10,15 @@ const pianoContainer = document.querySelector('.piano-container');
 
 function nextStage(){
     level += 1;
+    
     const nextKeyPattern = [...keyPattern];
     nextKeyPattern.push(nextKey());
     playStage(nextKeyPattern);
+
+    keyPattern = [...nextKeyPattern];
+    setTimeout (() => {
+        playersPattern(level);
+    }, level * 600 + 1000);
 }
 
 function activateKey(note){
