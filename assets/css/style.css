@@ -50,3 +50,15 @@ main {
     border: 1px solid #3F4045;
 }
 
+.black-key {
+    height: 160px;
+    width: 45px;
+    background-color: black;
+    align-self:flex-start;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-left: -22.5px;
+    margin-right: -22.5px;
+    z-index: 2;
+}
+
