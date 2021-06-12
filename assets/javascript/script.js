@@ -55,3 +55,11 @@ function beginGame(){
 }
 
 startButton.addEventListener('click', beginGame)
+
+function playersTurn(level){
+    pianoContainer.classList.remove('unclickable');
+    instructions.innerHTML = 
+    `<p>Your turn!</p>
+    <p>${level} Tap${level > 1 ? 's' : '' }</p>
+    ` 
+}
