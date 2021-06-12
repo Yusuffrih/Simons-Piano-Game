@@ -5,6 +5,11 @@ let level = 0;
 const startButton = document.querySelector('.start-button');
 const instructions = document.querySelector('.key-instructions');
 
+function nextStage(){
+    level += 1;
+    const nextKeyPattern = [...keyPattern];
+}
+
 
 function beginGame(){
     startButton.classList.add('hidden');
