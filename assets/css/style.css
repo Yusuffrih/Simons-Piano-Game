@@ -22,6 +22,10 @@ body {
     display:none !important;
 }
 
+.unclickable {
+    pointer-events: none;
+}
+
 /* ---------------------------- Buttons*/
 
 .btn-secondary{
