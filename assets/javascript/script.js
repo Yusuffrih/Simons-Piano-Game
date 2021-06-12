@@ -48,6 +48,7 @@ function beginGame(){
     instructions.innerHTML = `
     <p>White Keys = Z,X,C,V,B,N,M</p>
     <p>Black Keys = S,D,G,H,J</p>`
+    nextStage();
 }
 
 startButton.addEventListener('click', beginGame)
