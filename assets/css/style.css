@@ -65,7 +65,6 @@ main {
 
 .white-key.active {
     background-color: #d4d2d2;
-    border: 1px solid #212121;
 }
 
 .black-key {
@@ -82,7 +81,6 @@ main {
 
 .black-key.active {
     background-color: #504f4f;
-    border: 1px solid #212121;
 }
 
 
