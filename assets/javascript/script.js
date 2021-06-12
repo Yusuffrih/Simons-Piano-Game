@@ -25,7 +25,7 @@ function nextStage(){
 
     keyPattern = [...nextKeyPattern];
     setTimeout (() => {
-        playersPattern(level);
+        playersTurn(level);
     }, level * 600 + 1000);
 }
 
@@ -59,6 +59,29 @@ function nextKey(){
     return random;
 }
 
+function dealWithClick(note){
+    const index = playersPattern.push(note) - 1;
+    const noteSound = document.querySelector(`[data-sound='${note}']`);
+    noteSound.play();
+
+    const remainingTaps = keyPattern.length - playersPattern.length;
+
+    if (playersPattern.length === keyPattern.length) {
+        playersPattern = [];
+        instructions.innerHTML = `<p>Fair Play Beethoven!</p>`;
+        setTimeout(() => {
+            nextStage();
+
+        }, 1000);
+        return;
+    }
+
+    tally.innerHTML = `
+    <p>Your turn!</p>
+    <p>${remainingTaps} Tap${remainingTaps > 1 ? 's' : '' }</p>
+    `;
+}
+
 function beginGame(){
     startButton.classList.add('hidden');
     instructions.classList.remove('hidden');
@@ -70,10 +93,16 @@ function beginGame(){
 
 startButton.addEventListener('click', beginGame)
 
+pianoContainer.addEventListener('click', e => {
+    const { note } = e.target.dataset;
+
+    if (note) dealWithClick(note);
+}); 
+
 function playersTurn(level){
     pianoContainer.classList.remove('unclickable');
-    tally.innerHTML = 
-    `<p>Your turn!</p>
+    tally.innerHTML = `
+    <p>Your turn!</p>
     <p>${level} Tap${level > 1 ? 's' : '' }</p>
     ` 
 }
