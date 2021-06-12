@@ -1,1 +1,2 @@
 let keyPattern = [];
+let playersPattern = [];
