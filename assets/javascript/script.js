@@ -4,6 +4,8 @@ let level = 0;
 
 const startButton = document.querySelector('.start-button');
 const instructions = document.querySelector('.key-instructions');
+const heading = document.querySelector('.heading');
+
 
 function nextStage(){
     level += 1;
