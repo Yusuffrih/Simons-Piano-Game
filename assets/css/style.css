@@ -4,9 +4,18 @@ body {
     font-family: 'Roboto', 'Lato', sans-serif;
     font-size: 2rem;
     margin: 0 auto;
+    background-image: url('../images/piano-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #3F4045;
     color: #fcfcfc;
     text-align: center;
+    /* part 1 of fix to keep footer at bottom of page - part 2 in footer section */
+    /* This fix was taken from https://www.youtube.com/watch?v=yc2olxLgKLk */ 
+    display:flex;   
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* ---------------------------- Buttons*/
