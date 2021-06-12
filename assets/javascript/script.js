@@ -15,7 +15,9 @@ function nextStage(){
     instructions.innerHTML = `
     <p>White Keys = Z,X,C,V,B,N,M</p>
     <p>Black Keys = S,D,G,H,J</p>`;
-    
+    tally.innerHTML = `
+    <p>Your turn!</p>
+    <p>Level ${level} of 20</p>`; 
 
     const nextKeyPattern = [...keyPattern];
     nextKeyPattern.push(nextKey());
@@ -70,7 +72,7 @@ startButton.addEventListener('click', beginGame)
 
 function playersTurn(level){
     pianoContainer.classList.remove('unclickable');
-    instructions.innerHTML = 
+    tally.innerHTML = 
     `<p>Your turn!</p>
     <p>${level} Tap${level > 1 ? 's' : '' }</p>
     ` 
