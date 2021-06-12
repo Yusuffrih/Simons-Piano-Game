@@ -22,11 +22,6 @@ body {
     display:none !important;
 }
 
-.active {
-    box-shadow: inset 1px solid grey;
-    border: 2px solid #3F4045;
-}
-
 /* ---------------------------- Buttons*/
 
 .btn-secondary{
@@ -68,6 +63,11 @@ main {
     border: 1px solid #3F4045;
 }
 
+.white-key.active {
+    background-color: #d4d2d2;
+    border: 1px solid #212121;
+}
+
 .black-key {
     height: 160px;
     width: 45px;
@@ -79,6 +79,12 @@ main {
     margin-right: -22.5px;
     z-index: 2;
 }
+
+.black-key.active {
+    background-color: #504f4f;
+    border: 1px solid #212121;
+}
+
 
 /* ------------------------------------ Footer */
 
