@@ -9,6 +9,7 @@ function nextStage(){
     level += 1;
     const nextKeyPattern = [...keyPattern];
     nextKeyPattern.push(nextKey());
+    playStage(nextKeyPattern);
 }
 
 function activateKey(note){
