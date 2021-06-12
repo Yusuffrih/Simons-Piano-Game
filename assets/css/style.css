@@ -28,4 +28,15 @@ main {
     padding-bottom: 20px;
 }
 
+/* ---------------------------- Game area */
 
+/* Some CSS techniques for piano and keys inspired by 
+'Web Dev Simplified' https://www.youtube.com/watch?v=vjco5yKZpU8&t=668s */
+
+.piano-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+}
