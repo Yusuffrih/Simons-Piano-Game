@@ -30,7 +30,7 @@ function playStage(nextKeyPattern){
     nextKeyPattern.forEach((note, index) => {
         setTimeout(() => {
             activateKey(note);
-        }, (index + 1) * 300);
+        }, (index + 1) * 600);
     });
 }
 
