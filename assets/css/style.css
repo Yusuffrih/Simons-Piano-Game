@@ -8,3 +8,10 @@ body {
     color: #fcfcfc;
     text-align: center;
 }
+
+/* ---------------------------- Buttons*/
+
+.btn-secondary{
+    background-color: #3F4045;
+    border: #3F4045;
+}
