@@ -10,6 +10,15 @@ function nextStage(){
     const nextKeyPattern = [...keyPattern];
 }
 
+function nextKey(){
+    const keys = [
+         'C', 'Db', 'D', 'Eb', 
+         'E', 'F', 'Gb', 'G', 
+         'Ab', 'A', 'Bb', 'B'];
+    const random = keys[Math.floor(Math.random()*keys.length)];
+    
+    return random;
+}
 
 function beginGame(){
     startButton.classList.add('hidden');
