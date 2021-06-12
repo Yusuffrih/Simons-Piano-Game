@@ -15,3 +15,10 @@ body {
     background-color: #3F4045;
     border: #3F4045;
 }
+
+/* --------------------------- Header */
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
