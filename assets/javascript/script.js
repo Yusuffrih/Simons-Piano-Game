@@ -11,6 +11,18 @@ function nextStage(){
     nextKeyPattern.push(nextKey());
 }
 
+function activateKey(note){
+    const key = document.querySelector(`[data-note='${note}']`);
+    const noteSound = document.querySelector(`[data-sound='${note}']`);
+
+    key.classList.add('active');
+    noteSound.play();
+
+    setTimeout(() => {
+        key.classList.remove('active'); 
+    },300);
+}
+
 function nextKey(){
     const keys = [
          'C', 'Db', 'D', 'Eb', 
