@@ -23,7 +23,7 @@ function activateKey(note){
     },300);
 }
 
-function playLevel(nextKeyPattern){
+function playStage(nextKeyPattern){
     nextKeyPattern.forEach((note, index) => {
         setTimeout(() => {
             activateKey(note);
