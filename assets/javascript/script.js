@@ -8,6 +8,7 @@ const instructions = document.querySelector('.key-instructions');
 function nextStage(){
     level += 1;
     const nextKeyPattern = [...keyPattern];
+    nextKeyPattern.push(nextKey());
 }
 
 function nextKey(){
