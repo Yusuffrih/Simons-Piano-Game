@@ -23,6 +23,14 @@ function activateKey(note){
     },300);
 }
 
+function playLevel(nextKeyPattern){
+    nextKeyPattern.forEach((note, index) => {
+        setTimeout(() => {
+            activateKey(note);
+        }, (index + 1) * 300);
+    });
+}
+
 function nextKey(){
     const keys = [
          'C', 'Db', 'D', 'Eb', 
