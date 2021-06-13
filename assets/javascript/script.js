@@ -72,6 +72,13 @@ function dealWithClick(note){
     }
 
     if (playersPattern.length === keyPattern.length) {
+        if (playersPattern.length === 35) {
+            restartGame("Well done, you've won the game!");
+            return;
+        }
+    }
+
+    if (playersPattern.length === keyPattern.length) {
         playersPattern = [];
         instructions.innerHTML = `<p>Fair Play Beethoven!</p>`;
         setTimeout(() => {
