@@ -123,7 +123,5 @@ function restartGame(message){
 function playersTurn(level){
     pianoContainer.classList.remove('unclickable');
     tally.innerHTML = `
-    <p>Your turn!</p>
-    <p>${level} Tap${level > 1 ? 's' : '' }</p>
-    ` 
+    <p>Your turn! ${level} Tap${level > 1 ? 's' : '' }</p>` 
 }
