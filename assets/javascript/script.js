@@ -91,17 +91,14 @@ function dealWithClick(note){
     }
 
     tally.innerHTML = `
-    <p>Your turn!</p>
-    <p>${remainingTaps} Tap${remainingTaps > 1 ? 's' : '' }</p>
-    `;
+    <p>Your turn! ${remainingTaps} Tap${remainingTaps > 1 ? 's' : '' }</p>`;
 }
 
 function beginGame(){
     startButton.classList.add('hidden');
     instructions.classList.remove('hidden');
     instructions.innerHTML = `
-    <p>White Keys = Z,X,C,V,B,N,M</p>
-    <p>Black Keys = S,D,G,H,J</p>`
+    <p>White Keys = Z,X,C,V,B,N,M<br>Black Keys = S,D,G,H,J</p>`
     nextStage();
 }
 
