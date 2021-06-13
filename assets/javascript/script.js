@@ -99,6 +99,16 @@ pianoContainer.addEventListener('click', e => {
     if (note) dealWithClick(note);
 }); 
 
+function restartGame(message){
+    alert(message); 
+    keyPattern = [];
+    playersPattern = [];
+    level = 0; 
+    startButton.classList.remove('hidden');
+    instructions.classList.add('hidden');
+    pianoContainer.classList.add('unclickable')
+}
+
 function playersTurn(level){
     pianoContainer.classList.remove('unclickable');
     tally.innerHTML = `
