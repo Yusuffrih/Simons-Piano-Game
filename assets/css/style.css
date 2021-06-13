@@ -45,6 +45,12 @@ main {
     padding-bottom: 20px;
 }
 
+/* ----------------------------- Instructions */
+
+.key-instructions {
+    font-size: 20px;
+}
+
 /* ---------------------------- Game area */
 
 /* Some CSS techniques for piano and keys inspired by 
