@@ -63,8 +63,15 @@ function nextKey(){
 
 function dealWithClick(note){
     const index = playersPattern.push(note) - 1;
+    const key = document.querySelector(`[data-note='${note}']`);
     const noteSound = document.querySelector(`[data-sound='${note}']`);
+
+    key.classList.add('active');
     noteSound.play();
+
+    setTimeout(() => {
+        key.classList.remove('active'); 
+    },300);
 
     const remainingTaps = keyPattern.length - playersPattern.length;
     
@@ -106,7 +113,7 @@ startButton.addEventListener('click', beginGame)
 
 pianoContainer.addEventListener('click', e => {
     const { note } = e.target.dataset;
-
+    
     if (note) dealWithClick(note);
 }); 
 
@@ -116,8 +123,9 @@ function restartGame(message){
     playersPattern = [];
     level = 0; 
     startButton.classList.remove('hidden');
+    tally.classList.add('hidden');
     instructions.classList.add('hidden');
-    pianoContainer.classList.add('unclickable')
+    pianoContainer.classList.add('unclickable');
 }
 
 function playersTurn(level){
