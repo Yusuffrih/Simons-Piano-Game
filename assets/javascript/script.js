@@ -13,8 +13,12 @@ function nextStage(){
     
     pianoContainer.classList.add('unclickable');
     instructions.innerHTML = `
-    <p>White Keys = Z,X,C,V,B,N,M</p>
-    <p>Black Keys = S,D,G,H,J</p>`;
+    <p>
+    White Keys = Z,X,C,V,B,N,M
+    <br>
+    Black Keys = S,D,G,H,J
+    </p>`;
+    
     tally.innerHTML = `
     <p>Your turn!</p>
     <p>Level ${level} of 35</p>`; 
