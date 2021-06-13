@@ -65,6 +65,11 @@ function dealWithClick(note){
     noteSound.play();
 
     const remainingTaps = keyPattern.length - playersPattern.length;
+    
+    if (playersPattern[index] !== keyPattern[index]){
+        restartGame('Sorry, you got it wrong... Game over!');
+        return;
+    }
 
     if (playersPattern.length === keyPattern.length) {
         playersPattern = [];
