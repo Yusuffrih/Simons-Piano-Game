@@ -17,7 +17,7 @@ function nextStage(){
     <p>Black Keys = S,D,G,H,J</p>`;
     tally.innerHTML = `
     <p>Your turn!</p>
-    <p>Level ${level} of 20</p>`; 
+    <p>Level ${level} of 35</p>`; 
 
     const nextKeyPattern = [...keyPattern];
     nextKeyPattern.push(nextKey());
