@@ -82,6 +82,12 @@ main {
     background-color: #d4d2d2;
 }
 
+.white-key:hover,
+.black-key:hover
+{
+    cursor: pointer;
+}
+
 .black-key {
     height: 160px;
     width: 45px;
