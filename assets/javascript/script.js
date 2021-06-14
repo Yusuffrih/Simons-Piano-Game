@@ -106,6 +106,7 @@ function dealWithClick(note){
 
 function beginGame(){
     startButton.classList.add('hidden');
+    tally.classList.remove('hidden');
     instructions.classList.remove('hidden');
     instructions.innerHTML = `
     <p>White Keys = Z,X,C,V,B,N,M<br>Black Keys = S,D,G,H,J</p>`
