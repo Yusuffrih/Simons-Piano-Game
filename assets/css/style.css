@@ -123,9 +123,56 @@ footer a {
     color: ivory;
 }
 
-/* -------------------------------------- Making it responsive */
+@media screen and (min-width:280px) and (max-width:767px) and (orientation:landscape) {
+    
+}
 
-@media screen and (max-width:376px) {
+/* 
+-------------------------------------- Making it responsive
+ 
+
+
+
+@media screen and (min-width:420) and (max-width:490px) {
+    .piano-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: 20px auto;
+    }
+    .white-key {
+        height: 200px;
+        width: 50px;
+        background-color: ivory;
+        border-radius: 5px;
+        color: black;
+        border: 1px solid #3F4045;
+    }
+    .white-key p {
+        position: relative;
+        font-size: 0.75rem;
+        top: 160px;
+    }
+    .black-key {
+        height: 100px;
+        width: 35px;
+        background-color: black;
+        align-self:flex-start;
+        border-radius: 5px;
+        font-size: 1rem;
+        margin-left: -17.5px;
+        margin-right: -17.5px;
+        z-index: 2;
+    }
+    .black-key p {
+        position: relative;
+        font-size: 0.75rem;
+        top: 80px;
+    }
+}
+
+@media screen and (min-width:490px) and (max-width: 576px) {
     .piano-container {
         display: flex;
         justify-content: center;
@@ -135,8 +182,8 @@ footer a {
     }
     
     .white-key {
-        height: 200px;
-        width: 50px;
+        height: 240px;
+        width: 60px;
         background-color: ivory;
         border-radius: 5px;
         color: black;
@@ -145,8 +192,8 @@ footer a {
     
     .white-key p {
         position: relative;
-        font-size: 0.75rem;
-        top: 160px;
+        font-size: 0.8rem;
+        top: 200px;
     }
     
     .white-key.active {
@@ -160,24 +207,82 @@ footer a {
     }
     
     .black-key {
-        height: 100px;
-        width: 35px;
+        height: 120px;
+        width: 40px;
         background-color: black;
         align-self:flex-start;
         border-radius: 5px;
         font-size: 1rem;
-        margin-left: -17.5px;
-        margin-right: -17.5px;
+        margin-left: -20px;
+        margin-right: -20px;
         z-index: 2;
     }
     
     .black-key p {
         position: relative;
-        font-size: 0.75rem;
-        top: 80px;
+        font-size: 0.8rem;
+        top: 90px;
     }
     
     .black-key.active {
         background-color: #504f4f;
     }
 }
+
+
+@media screen and (min-width:576px) and (max-width:767px)  {
+    .piano-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: 20px auto;
+    }
+    
+    .white-key {
+        height: 280px;
+        width: 70px;
+        background-color: ivory;
+        border-radius: 5px;
+        color: black;
+        border: 1px solid #3F4045;
+    }
+    
+    .white-key p {
+        position: relative;
+        font-size: 0.85rem;
+        top: 240px;
+    }
+    
+    .white-key.active {
+        background-color: #d4d2d2;
+    }
+    
+    .white-key:hover,
+    .black-key:hover
+    {
+        cursor: pointer;
+    }
+    
+    .black-key {
+        height: 150px;
+        width: 45px;
+        background-color: black;
+        align-self:flex-start;
+        border-radius: 5px;
+        font-size: 1rem;
+        margin-left: -22.5px;
+        margin-right: -22.5px;
+        z-index: 2;
+    }
+    
+    .black-key p {
+        position: relative;
+        font-size: 0.85rem;
+        top: 110px;
+    }
+    
+    .black-key.active {
+        background-color: #504f4f;
+    }
+} */ */
