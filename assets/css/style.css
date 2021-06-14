@@ -122,3 +122,62 @@ footer {
 footer a {
     color: ivory;
 }
+
+/* -------------------------------------- Making it responsive */
+
+@media screen and (max-width:376px) {
+    .piano-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        margin: 20px auto;
+    }
+    
+    .white-key {
+        height: 200px;
+        width: 50px;
+        background-color: ivory;
+        border-radius: 5px;
+        color: black;
+        border: 1px solid #3F4045;
+    }
+    
+    .white-key p {
+        position: relative;
+        font-size: 0.75rem;
+        top: 160px;
+    }
+    
+    .white-key.active {
+        background-color: #d4d2d2;
+    }
+    
+    .white-key:hover,
+    .black-key:hover
+    {
+        cursor: pointer;
+    }
+    
+    .black-key {
+        height: 100px;
+        width: 35px;
+        background-color: black;
+        align-self:flex-start;
+        border-radius: 5px;
+        font-size: 1rem;
+        margin-left: -17.5px;
+        margin-right: -17.5px;
+        z-index: 2;
+    }
+    
+    .black-key p {
+        position: relative;
+        font-size: 0.75rem;
+        top: 80px;
+    }
+    
+    .black-key.active {
+        background-color: #504f4f;
+    }
+}
