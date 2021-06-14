@@ -82,7 +82,7 @@ function dealWithClick(note){
     },300);
     
     if (playersPattern[index] !== keyPattern[index]){
-        restartGame('Sorry, you got it wrong... Game over!');
+        restartGame(`Game over! You got to level ${level}`);
         return;
     }
 
