@@ -73,6 +73,11 @@ main {
     border: 1px solid #3F4045;
 }
 
+.white-key p {
+    position: relative;
+    top: 250px;
+}
+
 .white-key.active {
     background-color: #d4d2d2;
 }
@@ -87,6 +92,11 @@ main {
     margin-left: -22.5px;
     margin-right: -22.5px;
     z-index: 2;
+}
+
+.black-key p {
+    position: relative;
+    top: 120px;
 }
 
 .black-key.active {
