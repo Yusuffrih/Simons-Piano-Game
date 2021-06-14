@@ -6,6 +6,10 @@ const startButton = document.querySelector('.start-button');
 const instructions = document.querySelector('.key-instructions');
 const tally = document.querySelector('.tally');
 const pianoContainer = document.querySelector('.piano-container');
+// const whiteKeyLetters = ['z', 'x', 'c', 'v', 'b', 'n', 'm'];
+// const blackKeyLetters = ['s', 'd', 'g', 'h', 'j'];
+// const keysWhite = document.querySelectorAll('.white-key');
+// const keysBlack = document.querySelectorAll('.black-key');
 
 
 function nextStage(){
@@ -65,6 +69,7 @@ function dealWithClick(note){
     const index = playersPattern.push(note) - 1;
     const key = document.querySelector(`[data-note='${note}']`);
     const noteSound = document.querySelector(`[data-sound='${note}']`);
+    const remainingTaps = keyPattern.length - playersPattern.length;
 
     key.classList.add('active');
     noteSound.play();
@@ -72,8 +77,6 @@ function dealWithClick(note){
     setTimeout(() => {
         key.classList.remove('active'); 
     },300);
-
-    const remainingTaps = keyPattern.length - playersPattern.length;
     
     if (playersPattern[index] !== keyPattern[index]){
         restartGame('Sorry, you got it wrong... Game over!');
@@ -111,9 +114,18 @@ function beginGame(){
 
 startButton.addEventListener('click', beginGame)
 
+// pianoContainer.addEventListener('keydown', e => {
+//     const key = e.key
+//     const IndexOfWhite = whiteKeyLetters.indexOf(key);
+//     const IndexOfBlack = blackKeyLetters.indexOf(key);
+
+//     if (IndexOfWhite > -1) dealWithClick(keysWhite[IndexOfWhite]);
+//     if (IndexOfBlack > -1) dealWithClick(keysBlack[IndexOfBlack]);
+// })
+
 pianoContainer.addEventListener('click', e => {
     const { note } = e.target.dataset;
-    
+
     if (note) dealWithClick(note);
 }); 
 
