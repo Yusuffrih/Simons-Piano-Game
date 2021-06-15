@@ -1,15 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Dancing+Script:wght@400;500;600;700&display=swap');
 
+:root {
+    --color-light: #fcfcfc; 
+    --color-dark: #3F4045;
+
+    --dark-bg-img: url('../images/piano-dark-bg.jpg');
+    --light-bg-img: url('../images/piano-light-bg.jpg');
+}
+
 body {
     font-family: 'Dancing Script', 'Lato', sans-serif;
     font-size: 2rem;
     margin: 0 auto;
-    background-image: url('../images/piano-dark-bg.jpg');
+    background-image: var(--dark-bg-img);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #3F4045;
-    color: #fcfcfc;
+    background-color: var(--color-dark);
+    color: var(--color-light);
     text-align: center;
     /* part 1 of fix to keep footer at bottom of page - part 2 in footer section */
     /* This fix was taken from https://www.youtube.com/watch?v=yc2olxLgKLk */ 
@@ -18,11 +26,8 @@ body {
     min-height: 100vh;
 }
 
-#color-theme {
-    background-image: url('../images/');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.color-theme {
+    background-image: var(--light-bg-img);
     background-color: whitesmoke;
     color: #212121;
 }
