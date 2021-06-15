@@ -6,10 +6,10 @@ const startButton = document.querySelector('.start-button');
 const instructions = document.querySelector('.key-instructions');
 const tally = document.querySelector('.tally');
 const pianoContainer = document.querySelector('.piano-container');
-// const whiteKeyLetters = ['z', 'x', 'c', 'v', 'b', 'n', 'm'];
-// const blackKeyLetters = ['s', 'd', 'g', 'h', 'j'];
-// const keysWhite = document.querySelectorAll('.white-key');
-// const keysBlack = document.querySelectorAll('.black-key');
+/* const whiteKeyLetters = ['z', 'x', 'c', 'v', 'b', 'n', 'm'];
+const blackKeyLetters = ['s', 'd', 'g', 'h', 'j'];
+const keysWhite = document.querySelectorAll('.white-key');
+const keysBlack = document.querySelectorAll('.black-key'); */
 
 
 function nextStage(){
@@ -119,14 +119,14 @@ function beginGame(){
 
 startButton.addEventListener('click', beginGame)
 
-// pianoContainer.addEventListener('keydown', e => {
-//     const key = e.key
-//     const IndexOfWhite = whiteKeyLetters.indexOf(key);
-//     const IndexOfBlack = blackKeyLetters.indexOf(key);
+/* pianoContainer.addEventListener('keydown', e => {
+    const key = e.key
+    const IndexOfWhite = whiteKeyLetters.indexOf(key);
+    const IndexOfBlack = blackKeyLetters.indexOf(key);
 
-//     if (IndexOfWhite > -1) dealWithClick(keysWhite[IndexOfWhite]);
-//     if (IndexOfBlack > -1) dealWithClick(keysBlack[IndexOfBlack]);
-// })
+    if (IndexOfWhite > -1) activateKey(keysWhite[IndexOfWhite]);
+    if (IndexOfBlack > -1) activateKey(keysBlack[IndexOfBlack]);
+}) */
 
 pianoContainer.addEventListener('click', e => {
     const { note } = e.target.dataset;
