@@ -6,10 +6,10 @@ const startButton = document.querySelector('.start-button');
 const instructions = document.querySelector('.key-instructions');
 const tally = document.querySelector('.tally');
 const pianoContainer = document.querySelector('.piano-container');
-/* const whiteKeyLetters = ['z', 'x', 'c', 'v', 'b', 'n', 'm'];
+const whiteKeyLetters = ['z', 'x', 'c', 'v', 'b', 'n', 'm'];
 const blackKeyLetters = ['s', 'd', 'g', 'h', 'j'];
 const keysWhite = document.querySelectorAll('.white-key');
-const keysBlack = document.querySelectorAll('.black-key'); */
+const keysBlack = document.querySelectorAll('.black-key');
 
 
 function nextStage(){
@@ -67,11 +67,12 @@ function nextKey(){
 }
 
 function dealWithClick(note){
+    console.log(note);
     const index = playersPattern.push(note) - 1;
     const key = document.querySelector(`[data-note='${note}']`);
     const noteSound = document.querySelector(`[data-sound='${note}']`);
     const remainingTaps = keyPattern.length - playersPattern.length;
-
+    
     key.classList.add('active');
     noteSound.currentTime = 0; // This fixes the issue of no sound on double notes
     /* The above currentTime bug fix taken from WDS Youtube 
@@ -105,7 +106,7 @@ function dealWithClick(note){
     }
 
     tally.innerHTML = `
-    <p>Your turn! ${remainingTaps} Tap${remainingTaps > 1 ? 's' : '' }</p>`;
+    <p>Your turn! ${remainingTaps} Tap${remainingTaps > 1 ? 's' : '' }</p>`; 
 }
 
 function beginGame(){
@@ -119,14 +120,19 @@ function beginGame(){
 
 startButton.addEventListener('click', beginGame)
 
-/* pianoContainer.addEventListener('keydown', e => {
+document.addEventListener('keyup', e => {
     const key = e.key
-    const IndexOfWhite = whiteKeyLetters.indexOf(key);
-    const IndexOfBlack = blackKeyLetters.indexOf(key);
 
-    if (IndexOfWhite > -1) activateKey(keysWhite[IndexOfWhite]);
-    if (IndexOfBlack > -1) activateKey(keysBlack[IndexOfBlack]);
-}) */
+    const indexOfWhite = whiteKeyLetters.indexOf(key);
+    const indexOfBlack = blackKeyLetters.indexOf(key);
+    
+    let {note} = keysWhite[indexOfWhite].dataset;
+    let {noteBlack} = keysBlack[indexOfBlack].dataset;
+
+    if (indexOfWhite > -1) dealWithClick(note);
+    if (indexOfBlack > -1) dealWithClick(noteBlack);
+})
+
 
 pianoContainer.addEventListener('click', e => {
     const { note } = e.target.dataset;
