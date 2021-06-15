@@ -73,7 +73,7 @@ function dealWithClick(note){
     const remainingTaps = keyPattern.length - playersPattern.length;
 
     key.classList.add('active');
-    noteSound.currentTime = 0; 
+    noteSound.currentTime = 0; // This fixes the issue of no sound on double notes
     /* The above currentTime bug fix taken from WDS Youtube 
     - https://www.youtube.com/watch?v=vjco5yKZpU8 */
     noteSound.play();
