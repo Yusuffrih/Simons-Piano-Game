@@ -99,7 +99,7 @@ header {
 .black-key {
     height: 50%;
     width: 7.14%;
-    background-color: black;
+    background-color: #212121;
     align-self:flex-start;
     border-radius: 5px;
     font-size: 1rem;
