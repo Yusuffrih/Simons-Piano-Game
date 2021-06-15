@@ -40,6 +40,7 @@ function activateKey(note){
     const noteSound = document.querySelector(`[data-sound='${note}']`);
 
     key.classList.add('active');
+    noteSound.currentTime = 0;
     noteSound.play();
 
     setTimeout(() => {
