@@ -26,12 +26,6 @@ body {
     min-height: 100vh;
 }
 
-.color-theme {
-    background-image: var(--light-bg-img);
-    background-color: whitesmoke;
-    color: #212121;
-}
-
 .hidden {
     display:none !important;
 }
@@ -53,11 +47,6 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
-/* --------------------------- Main section */
-/* main {
-    padding-bottom: 20px;
-} */
 
 /* ----------------------------- Instructions */
 
