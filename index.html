@@ -15,17 +15,17 @@
 <body>
     <main class="container-fluid game">
         
-        <header>
+        <header class="row justify-content-center">
             <h1>
                 <i class="fas fa-music"></i> Simon's Piano <i class="fas fa-music"></i>
             </h1>
         </header>
 
-        <section class="control-center">
+        <section class="control-center row justify-content-center">
             <!-- Start Button -->
             <button class="start-button btn-secondary">Start</button>
             <!-- Level tally information -->
-            <span class="tally"></span>
+            <div class="tally"></div>
             <!-- Color Theme Toggle -->
             <div id="color-theme" onclick='colorTheme' aria-label="change color theme"><i class="fas fa-adjust"></i></div>
         </section>
@@ -73,8 +73,8 @@
         </section>
 
         <!-- Instruction of keyboard keys to use -->
-        <section>
-            <span class="key-instructions hidden"></span>
+        <section class="row justify-content-center">
+            <div class="key-instructions hidden"></div>
         </section>
 
     </main>
