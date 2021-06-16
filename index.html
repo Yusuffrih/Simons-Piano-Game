@@ -14,17 +14,25 @@
 </head>
 <body>
     <main class="container-fluid game">
+        
         <header>
             <h1>
                 <i class="fas fa-music"></i> Simon's Piano <i class="fas fa-music"></i>
             </h1>
         </header>
+
         <section class="control-center">
+            <!-- Start Button -->
             <button class="start-button btn-secondary">Start</button>
+            <!-- Level tally information -->
             <span class="tally"></span>
+            <!-- Color Theme Toggle -->
             <div id="color-theme" onclick='colorTheme' aria-label="change color theme"><i class="fas fa-adjust"></i></div>
         </section>
+
+        <!-- Piano Section -->
         <section class="col-lg-5 col-md-7 col-sm-10 col-xs-12 piano-container unclickable">
+            
             <div class="key white-key" data-note="C">
                 <p class="unclickable">C</p>
             </div>
@@ -61,14 +69,22 @@
             <div class="key white-key" data-note="B">
                 <p class="unclickable">B</p>
             </div>
+
         </section>
+
+        <!-- Instruction of keyboard keys to use -->
         <section>
             <span class="key-instructions hidden"></span>
         </section>
+
     </main>
+
     <footer>
+        <!-- Link to my Github Profile -->
         <a href="https://github.com/Yusuffrih/" target="_blank"><i class="fab fa-github"></i></a>
     </footer>
+
+    <!-- Piano key notes -->
     <div class="hidden">
         <audio src="assets/notes/notes_C.mp3" data-sound="C"></audio>
         <audio src="assets/notes/notes_Db.mp3" data-sound="Db"></audio>
