@@ -23,7 +23,7 @@ function nextStage(){
     Black Keys = S,D,G,H,J
     </p>`;
 
-    tally.innerHTML = `<p>Your turn! Level ${level} of 35</p>`; 
+    tally.innerHTML = `<p>Your turn - Level ${level} of 35</p>`; 
 
     const nextKeyPattern = [...keyPattern];
     nextKeyPattern.push(nextKey());
@@ -106,7 +106,7 @@ function dealWithClick(note){
     }
 
     tally.innerHTML = `
-    <p>Your turn! ${remainingTaps} Tap${remainingTaps > 1 ? 's' : '' }</p>`; 
+    <p>Your turn - ${remainingTaps} Tap${remainingTaps > 1 ? 's' : '' }</p>`; 
 }
 
 function beginGame(){
