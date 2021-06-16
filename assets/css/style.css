@@ -36,8 +36,9 @@ body {
 
 /* ---------------------------- Buttons*/
 
-.btn-secondary{
-    background-color: #3F4045;
+.btn-secondary {
+    background-color: var(--color-dark);
+    color: var(--color-light);
     border-radius: 15px;
 }
 
@@ -48,16 +49,34 @@ header {
     padding-bottom: 20px;
 }
 
-/* ----------------------------- Instructions */
-
-.key-instructions {
-    font-size: 20px;
+h1 {
+    background-color: var(--color-dark);
+    max-width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
 }
 
-/* ---------------------------- Tally */
+/* ----------------------------- Instructions & Tally */
+
+.key-instructions {
+    font-size: 1.25rem;
+    background-color: var(--color-dark);
+    border-radius: 10px;
+    max-width: fit-content;
+    padding: 5px;
+}
 
 .tally {
-    font-size: 80%;
+    font-size: 1.5rem;
+    background-color: var(--color-dark);
+    border-radius: 10px;
+    max-width: fit-content;
+    padding: 5px;
+}
+
+.key-instructions p, 
+.tally p {
+    margin-bottom: 0;
 }
 
 /* ---------------------------- Game area */
