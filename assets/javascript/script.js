@@ -67,7 +67,6 @@ function nextKey(){
 }
 
 function dealWithClick(note){
-    console.log(note);
     const index = playersPattern.push(note) - 1;
     const key = document.querySelector(`[data-note='${note}']`);
     const noteSound = document.querySelector(`[data-sound='${note}']`);
