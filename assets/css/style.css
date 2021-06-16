@@ -2,7 +2,7 @@
 
 :root {
     --color-light: #fcfcfc; 
-    --color-dark: #3F4045;
+    --color-dark: #212121;
 
     --dark-bg-img: url('../images/piano-dark-bg.jpg');
     --light-bg-img: url('../images/piano-light-bg.jpg');
