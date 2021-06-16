@@ -122,15 +122,21 @@ startButton.addEventListener('click', beginGame)
 
 document.addEventListener('keyup', e => {
     const key = e.key
-
+    /* Index trick taken from WDS 
+    (https://www.youtube.com/watch?v=vjco5yKZpU8)
+    and adampted for my code */
     const indexOfWhite = whiteKeyLetters.indexOf(key);
     const indexOfBlack = blackKeyLetters.indexOf(key);
-    
-    let {note} = keysWhite[indexOfWhite].dataset;
-    let {noteBlack} = keysBlack[indexOfBlack].dataset;
 
-    if (indexOfWhite > -1) dealWithClick(note);
-    if (indexOfBlack > -1) dealWithClick(noteBlack);
+    if (indexOfWhite > -1) {
+        let {note} = keysWhite[indexOfWhite].dataset;
+        dealWithClick(note);
+    }    
+
+    if (indexOfBlack > -1){
+        let {note} = keysBlack[indexOfBlack].dataset;
+        dealWithClick(note);
+    } 
 })
 
 
