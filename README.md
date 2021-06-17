@@ -98,3 +98,10 @@ There were two different colour schemes the user could chose to toggle between. 
 * Buttons: #FCFCFC - White
 * Footer: #FCFCFC - White
 * Footer Elements: #212121 - Black 
+
+#### Icons
+I used some music icons to the heading to add some design to the page and keep with the music theme. 
+
+I used two icons in the footer. One for the Github logo & one for the dark mode logo.
+
+I got the icons from [Font Awesome](https://fontawesome.com/) which is a great website for all your icon needs. I feel that the icons just add a little bit of extra style to the page and make it overall a bit more visually appealing. 
