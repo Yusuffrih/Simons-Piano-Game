@@ -29,3 +29,13 @@ Simon's Piano aims to be a really simple game and web-page overall that doesn't 
 * Deployment
 * Credits
 * Final Comments
+
+## User Experience (UX)
+
+### Site Owner Goals
+* I want to inspire people to play music
+* I want to give the users of my site a positive experience with a game that evokes positive emotions
+* I want to have a visually appealing website
+* I want the users to feel like they are testing their short-term memory and attention span
+* I want the users to be able to toggle between light and dark mode on the page
+* I want the user to be given feedback for their interactions with the page
