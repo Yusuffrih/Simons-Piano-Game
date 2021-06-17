@@ -170,3 +170,9 @@ function playersTurn(level){
     tally.innerHTML = `
     <p>Your turn - ${level} Tap${level > 1 ? 's' : ''}</p>` 
 }
+
+colorThemeToggle.addEventListener('click', () => {
+    const body = document.body;
+    
+    body.classList.toggle('color-theme-change');
+})
