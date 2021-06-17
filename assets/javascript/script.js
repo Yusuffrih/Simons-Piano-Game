@@ -18,9 +18,11 @@ function nextStage(){
     pianoContainer.classList.add('unclickable');
     instructions.innerHTML = `
     <p>
-    White Keys = Z,X,C,V,B,N,M
-    <br>
-    Black Keys = S,D,G,H,J
+        Prefer the keyboard?
+        <br>
+        White Keys = Z,X,C,V,B,N,M
+        <br>
+        Black Keys = S,D,G,H,J
     </p>`;
 
     tally.innerHTML = `<p>Your turn - Level ${level} of 35</p>`; 
@@ -113,7 +115,13 @@ function beginGame(){
     tally.classList.remove('hidden');
     instructions.classList.remove('hidden');
     instructions.innerHTML = `
-    <p>White Keys = Z,X,C,V,B,N,M<br>Black Keys = S,D,G,H,J</p>`
+    <p>
+        Prefer the keyboard?
+        <br>
+        White Keys = Z,X,C,V,B,N,M
+        <br>
+        Black Keys = S,D,G,H,J
+    </p>`
     nextStage();
 }
 
