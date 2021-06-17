@@ -60,3 +60,12 @@ Simon's Piano aims to be a really simple game and web-page overall that doesn't 
 * As a user, I would like to be able to pick a colour theme for the website
 * As a user, I would like to be able to give the game designer some feedback on how to improve the game features
 
+### User Requirements
+* The site needs to be easy to navigate between the different features via good UX
+* To be able to press play to start the game when the user is ready
+* To have a landing page that tells the user what the page is at a glance
+* To have a well laid out page that is easy to use and understandable
+* To be able to read clearly any messaging that is displayed on screen - constrasting backgrounds
+* To be given clear and easy to understand instructions
+* To get feedback from the game when I win or lose in a level
+* To be able to see the score throughout the game 
