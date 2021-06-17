@@ -50,3 +50,13 @@ Simon's Piano aims to be a really simple game and web-page overall that doesn't 
 * To be able to change the colour theme of page when playing the game
 * To be able to give the site owner some feedback so that they could improve the game and fix any bugs that may arise.
 
+### User Stories
+* As a user, I would like to be able to choose when I start the game so that I am in control
+* As a user, I would like to track my score throughout the game
+* As a user, I would like to be able to access a variety of difficulties based on my skill level
+* As a user I would like the game to have some element of variety in the game play so that I don't get bored. 
+* As a user, I would like to be given some positive/negative feedback when I pass/fail a level of the game
+* As a user, I would like to be able to see the game developer’s Github page to see if they have any other cool games to play
+* As a user, I would like to be able to pick a colour theme for the website
+* As a user, I would like to be able to give the game designer some feedback on how to improve the game features
+
