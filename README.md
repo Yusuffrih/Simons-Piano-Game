@@ -39,3 +39,14 @@ Simon's Piano aims to be a really simple game and web-page overall that doesn't 
 * I want the users to feel like they are testing their short-term memory and attention span
 * I want the users to be able to toggle between light and dark mode on the page
 * I want the user to be given feedback for their interactions with the page
+
+### User Goals
+* To have fun while playing the game
+* For the game to be responsive so that I can play on various devices
+* To feel like my short-term memory is being challenged 
+* To be able to see my score throughout the duration of the game 
+* To be told how far I've got when I lose the game
+* To be given feedback based on my choices - interactivity
+* To be able to change the colour theme of page when playing the game
+* To be able to give the site owner some feedback so that they could improve the game and fix any bugs that may arise.
+
