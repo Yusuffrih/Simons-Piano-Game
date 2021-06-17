@@ -82,3 +82,19 @@ When deciding what colour scheme to choose for my project, I decided to keep it 
 I used [Coolors](https://coolors.co/) to generate a colour scheme for the site. This is a really cool site that randomly generates colour schemes. You can keep generating new colour schemes until you find ones that fits your requirements. The site provides you with the [Hex value](https://en.wikipedia.org/wiki/Hexadecimal) of the colours so you can just copy and paste it into your code. See below for my choice of colour scheme. 
 
 ![Colour Pallette](assets/images/readme-imgs/simons-piano-palette.png)
+
+There were two different colour schemes the user could chose to toggle between. The colours used in each are as follows: 
+#### Dark
+* Body Background: black and white - [darker image](assets/images/background/piano-dark-bg.jpg)
+* Font Colours(Headings and body): #FCFCFC 
+* Piano Keys: ##FBFFF1 - Ivory & #212121 - Black
+* Buttons: #212121 - Black
+* Footer: #212121 - Black
+
+#### Light
+* Body Background: black and white - [lighter image](assets/images/background/piano-light-bg.jpg)
+* Font Colours(Headings and body): #212121 
+* Piano Keys: ##FBFFF1 - Ivory & #212121 - Black
+* Buttons: #FCFCFC - White
+* Footer: #FCFCFC - White
+* Footer Elements: #212121 - Black 
