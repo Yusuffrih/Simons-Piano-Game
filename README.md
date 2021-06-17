@@ -69,3 +69,7 @@ Simon's Piano aims to be a really simple game and web-page overall that doesn't 
 * To be given clear and easy to understand instructions
 * To get feedback from the game when I win or lose in a level
 * To be able to see the score throughout the game 
+
+### Design Choices
+To keep the game nice and simple for the user, I decided to keep the colour scheme basic. The user’s attention should be drawn to the game area as soon as possible with no confusion about what the aim of the game is. To achieve this, the game area is going to be placed in the middle of the screen with a contrasting background colour. 
+
