@@ -26,6 +26,12 @@ body {
     min-height: 100vh;
 }
 
+.color-theme-change {
+    background-image: var(--light-bg-img);
+    color: var(--color-dark);
+    background-color: var(--color-light);
+}
+
 .hidden {
     display:none !important;
 }
@@ -140,22 +146,24 @@ h1 {
 footer {
     display: flex;
     justify-content: space-around;
-    background-color:#212121;
+    background-color: var(--color-dark);
     width: 100%;
     margin-top: auto; /* part 2 of fix to keep footer at bottom of page*/
     padding: 15px;
 }
 
 footer a {
-    color: ivory;
+    color: var(--color-light);
 }
 
 #color-theme {
     display: inline;
 }
+
 #color-theme i {
     padding-left: 5px;
 }
+
 #color-theme p{
     font-size: 1.5rem;
 }
