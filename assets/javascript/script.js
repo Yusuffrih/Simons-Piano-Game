@@ -10,6 +10,7 @@ const whiteKeyLetters = ['z', 'x', 'c', 'v', 'b', 'n', 'm'];
 const blackKeyLetters = ['s', 'd', 'g', 'h', 'j'];
 const keysWhite = document.querySelectorAll('.white-key');
 const keysBlack = document.querySelectorAll('.black-key');
+const colorThemeToggle = document.querySelector('#color-theme');
 
 
 function nextStage(){
