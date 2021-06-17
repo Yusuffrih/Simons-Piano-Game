@@ -175,6 +175,10 @@ footer a {
     .black-key p {
         font-size: 80%;
     }
+
+    footer{
+        font-size: 80%;
+    }
 }
 
 @media screen and (min-width:282px) and (max-width:380px){
@@ -192,6 +196,10 @@ footer a {
 
     .white-key p,
     .black-key p {
+        font-size: 90%;
+    }
+
+    footer{
         font-size: 90%;
     }
 }
