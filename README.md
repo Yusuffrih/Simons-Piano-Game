@@ -115,3 +115,18 @@ I created mock ups for my page to fit into the main device types - Desktop, Tabl
 * [Desktop](wireframes/desktop-simons-piano-pame.png)
 * [Tablet](wireframes/tablet-simons-piano-game.png)
 * [Mobile](wireframes/mobile-simons-piano-game.png)
+
+## Features 
+### Implemented Features
+* Title/heading sections at the top of the page
+* Start button to begin the game
+* Score area outlining the score and the level the user has reached
+* Interactive black and white piano keys
+* Musical audio notes attached to the corresponding piano keys
+* Footer which provides the user a link to the site owners Github profile
+* A responsive design that accomodates multiple devices
+* The ability to play the game with the keyboard to give the player more of an authentic piano feeling
+* Instructions for what keys to use to play the piano keys
+* Feedback on how the player is doing - levels are tallied and displayed 
+* Button feedback for every button pressed or click they make through audio and visual
+* A button to enable the user to pick a colour theme for the website e.g. dark/light 
