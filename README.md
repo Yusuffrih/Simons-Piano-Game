@@ -161,3 +161,35 @@ I created mock ups for my page to fit into the main device types - Desktop, Tabl
 * [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) - One of the Chrome Dev Tools which was used to assess the level of accessibility, performance and correctness that was provided by the site.
 * [JS Fiddle](https://jsfiddle.net/) - An online playground IDE used to test and trial Javascript code with HTML and CSS
 * [Youtube](https://www.youtube.com/) - Youtube videos are a great way to learn how to do different things if stuck on a particular piece of code
+
+
+## Testing
+
+### User Story Testing
+* As a user, I would like to be able to choose when I start the game so that I am in control
+    - When the user lands on the page, the game does not start automatically. The user gets a chance to consume what is displayed on screen and has to click on the start button above the piano keys to start the game. 
+
+* As a user, I would like to track my score throughout the game
+    - This is where the testing confirmation goes 
+
+* As a user, I would like to be able to access a variety of difficulties based on my skill level
+    - The further the user gets into the game, the harder it gets. The randomly generated note pattern builds on itself with each level making it more challenging. Each time the user starts a new game, they get a new randomly generated pattern to play with which
+
+*  As a user I would like the game to have some element of variety in the game play so that I don't get bored. 
+    - Each time the user starts a new game, they get a new randomly generated pattern to play with which should keep them entertained and which should keep challenging their memory
+
+* As a user, I would like to be given some positive/negative feedback when I pass/fail a level of the game
+    - The user is shown a message under they piano keys when they win a level saying 'Fair play Beethoven'. This lets them know that they've won the level. If they get to level 35 and win the game, an alert will display letting them know that they have won.
+    - Every time the player loses, an alert is displayed on the screen to let them know that they have lost and to let them know what level in the game they got to
+
+* As a user, I would like to be able to see the game developer’s Github page to see if they have any other cool games to play
+    - The user is easily able to access the game site owner's GitHub profile in the footer of the page to see if they have any other interesting games there. This is also somewhere that the user can make contact with the developer
+
+* As a user, I would like to be able to pick a colour theme for the website
+    - The user will clearly see the labelled dark mode toggle in the footer of the page. If they click on this, they will see the colour scheme of the page change. This includes a lighter background image, different background colours and font colours. Of course, the piano elements of the page will remain the same colour however
+
+* As a user, I would like to have some instructions on how to play the game made available to me at a click of a button
+    - The game itself is extremely intuitive. However, there is a prompt that appears for the user that lets them know that it's their turn and letting them know how many taps of the piano keys they need to input. There are also instructions for the user letting them know how to use the keyboard keys to play the game if that's what they would prefer
+
+* As a user, I would like to be able to give the game designer some feedback on how to improve the game features
+    - The user will be able to provide the developer with some feedback on the game through the Github profile page
