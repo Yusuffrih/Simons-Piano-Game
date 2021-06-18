@@ -207,3 +207,30 @@ I created mock ups for my page to fit into the main device types - Desktop, Tabl
     - No errors found
 * Fixes:
     - N/A
+
+
+### Feature Testing 
+* Title/heading sections at the top of the page
+    - Header of the page is displayed at the top of the page does not get distorted at any screen size. I have added some icons to the page header to add some style and provide nice UI 
+* Start button to begin the game
+    - The start button on the page looks well, is easy to see and works as it is intended
+* Score area outlining the score and the level the user has reached
+    - The score area is located on top of the piano and replaces the start button when pressed. This brings the users attention to this and allows them to keep track of how many levels they have got past and how many correct taps they have to input to get to the next level
+* Interactive black and white piano keys
+    - The piano keys are fully interactive but only when the game is live i.e. The player presses the start button. When the player has their mouse hovered over the piano keys during the game, their cursor will display as a pointer letting them know that they can click. Also, when the keys are clicked, they change colour for the duration of the note audio. 
+* Musical audio notes attached to the corresponding piano keys
+    - The notes are played when the player clicks the piano keys. This is a nice feature to give a realistic piano feel to the player. When the player clicks a key more than once in quick succession, the note restarts immediately on each click rather than having to wait for the first itteration to finish playing.
+* Footer which provides the user a link to the site owners Github profile
+    - There is a link to the site owners GitHub profile in the footer of the page which opens a new tab for the user.
+* A responsive design that accomodates multiple devices
+    - The responsive design is fully functional across all device sizes. Testing here was done through the Chrome developer tools which was really handy for quickly checking how the different devices would display the page. The responsive design was achieved through Bootstrap's grid system
+* The ability to play the game with the keyboard to give the player more of an authentic piano feeling
+    - The player can play the piano keys through their keyboard which allows for a more realistic piano playing experience.
+* Instructions for what keys to use to play the piano keys
+    - When it is the player's turn to input the key notes, the instructions on what keyboard keys to use are displayed in a container just beneath the piano and are easy to read. They dissapear when the players turn is over and when the game is not live so as to keep the landing page simple and provide a good UX.
+* Feedback on how the player is doing - levels are tallied and displayed 
+    - Levels are tallied and displayed above the piano throughout the game. The players remaining taps are also tallied to let them know how many they have left to complete that level.
+* Button feedback for every button pressed or click they make through audio and visual
+    - The start button has a hover state, the piano keys display a pointer cursor when the game is live and change colour when they are pressed to let the user know that their click has registered.
+* A button to enable the user to pick a colour theme for the website e.g. dark/light 
+    - 
