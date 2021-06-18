@@ -130,3 +130,8 @@ I created mock ups for my page to fit into the main device types - Desktop, Tabl
 * Feedback on how the player is doing - levels are tallied and displayed 
 * Button feedback for every button pressed or click they make through audio and visual
 * A button to enable the user to pick a colour theme for the website e.g. dark/light 
+
+### Features Yet To Be Implemented 
+* Feedback form operating through Email.js which provides the user with a personalised & automatic response to let them know that their feedback has been received - Cold not implement this feature due to time constraints
+* Have actual songs played through the piano for the user to attempt to repeat as a different game mode. This would give the user some variety and constibute to achieving one of the project's goals of teaching the user to play music - Again, time constraints didn't allow for this to be implemented
+
