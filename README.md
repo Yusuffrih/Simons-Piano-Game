@@ -105,3 +105,13 @@ I used some music icons to the heading to add some design to the page and keep w
 I used two icons in the footer. One for the Github logo & one for the dark mode logo.
 
 I got the icons from [Font Awesome](https://fontawesome.com/) which is a great website for all your icon needs. I feel that the icons just add a little bit of extra style to the page and make it overall a bit more visually appealing. 
+
+## Wireframes
+
+When creating my wireframes, I first drew some rough sketches on paper but then decided that [Balsamiq](https://balsamiq.com/) would be the most suitable technology to use to assist with the design of the game. 
+
+I created mock ups for my page to fit into the main device types - Desktop, Tablet and Mobile. In my mock-ups, I had envisaged there being one single page for the project with a pop-up form for EmailJS where the user could provide feedback. 
+
+* [Desktop](wireframes/desktop-simons-piano-pame.png)
+* [Tablet](wireframes/tablet-simons-piano-game.png)
+* [Mobile](wireframes/mobile-simons-piano-game.png)
