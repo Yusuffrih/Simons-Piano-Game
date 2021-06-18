@@ -135,3 +135,29 @@ I created mock ups for my page to fit into the main device types - Desktop, Tabl
 * Feedback form operating through Email.js which provides the user with a personalised & automatic response to let them know that their feedback has been received - Cold not implement this feature due to time constraints
 * Have actual songs played through the piano for the user to attempt to repeat as a different game mode. This would give the user some variety and constibute to achieving one of the project's goals of teaching the user to play music - Again, time constraints didn't allow for this to be implemented
 
+
+## Technologies
+
+### Languages
+* [HTML 5](https://en.wikipedia.org/wiki/HTML) - HTML5 is a markup language I used for structuring and presenting content of my site
+* [CSS3](https://en.wikipedia.org/wiki/CSS) - A language used to style the presentation of the content written in HTML5
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript) - Javascript is the language used to provide the interactivity to the user on the site.
+
+### Frameworks & Libraries
+* [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/) 4 - A front-end framework which assist me in creating responsive website design
+* [Google Fonts](https://fonts.google.com/) - An open-source online library of thousands of fonts and icons that were free and easy to use.
+* [Font Awesome](https://fontawesome.com/) - An open source online library of icons which I used for extra styling.
+* [Pexels](https://www.pexels.com/) - Online library of stock photos for use for free.
+
+### Tools
+* [Coolors](https://coolors.co/) - Used this to generate a colour scheme that matched what I wanted for the site.
+* [Balsamic](https://balsamiq.com/) - Software used to complete the wireframes. This was much easier than trying to draw.
+* [Git](https://en.wikipedia.org/wiki/Git) - System used version control.
+* [GitHub](https://github.com/) - This is where my project repository was stored.
+* [GitPod](https://www.gitpod.io/) - Open source, online workspace used to work on my project.
+* [W3 HTML Validator](https://validator.w3.org/) - Used to validate my code to ensure that there were no errors.
+* [W3 CSS Validator](https://jigsaw.w3.org/css-validator/) - Used to validate my code to ensure that there were no errors.
+* [Google https://developer.chrome.com/docs/devtools/Chrome Dev Tools]() - A set of development tools to assist the user create web content. They are built directly into the browser
+* [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) - One of the Chrome Dev Tools which was used to assess the level of accessibility, performance and correctness that was provided by the site.
+* [JS Fiddle](https://jsfiddle.net/) - An online playground IDE used to test and trial Javascript code with HTML and CSS
+* [Youtube](https://www.youtube.com/) - Youtube videos are a great way to learn how to do different things if stuck on a particular piece of code
