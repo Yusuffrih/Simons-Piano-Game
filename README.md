@@ -244,4 +244,35 @@ The [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconl
 * [Desktop](assets/testing/lighthouse-testing-mobile.pdf)
 
 
+## Bugs 
+During the development of this game, there were many bugs that were overcome. Below are some of the main bugs that were encountered and a description on how they were overcome:
 
+#### Bug 1
+* When creating the piano for the game, I needed to make the individual keys out of divs. The bug was that I couldn't figure ot how to bring the black keys ontop of the white keys and bring the white keys together. 
+
+#### Fix 1
+* The fix for this was to let the black keys z-index values equal to 2 so that they sat ontop of the white keys. To bring the white keys together beneath the black keys, I had to make the left and right margins of the black keys equal to minus half the width of the white keys. This brought the white keys together and made the divs look like a piano. 
+
+#### Bug 2
+* The piano keys were being distorted after I had made the page responsive with Bootstrap.
+
+#### Fix 2 
+* To fix this issue, I had to change the height and width measurements of the black and white keys from static, pixels, to proportionate percentages.
+
+#### Bug 3
+* The footer of the webpage was not sticking to the bottom of the page when it was displaying on larger screens and the content didn't fill the full screen.
+
+#### Fix 3
+* To keep the footer at the bottom of the page, I gave the body element a display of flex, flex direction of column and minimum view height of 100. I also gave the footer element a top margin of auto. This meant that the body element was always spanning the full height of the screen with the footer at the bottom.
+
+#### Bug 4 
+* During the players turn of the game, if they clicked on the letter of the key they were trying to play, the click would not register. The reason being that the paragraph element was being clicked instead of the div which is what needed to be clicked for the Javascript to be activated. 
+
+#### Fix 4 
+* To stop the paragraph element from being clicked instead of the div, I added an unclickable class to all the paragraph elements in the piano keys. This class simply gave the paragraph elements pointer events a value of none. Before doing this, I tried just having the key labels inside the divs without having any children to the piano key divs, however, this stopped me from accessing the text inside them in the CSS and so I couldn't position them correctly on the keys. 
+
+#### Bug 5
+* As the pattern of notes that are generated are completely random, sometimes it would happen that the same key would be played more than once. In these instances, the audio files for that key would not play on each itteration. This was a problem as it made it confusing for the player to know how many times they should click the key. The same problem would occur when they player clicked the keys in quick succession on their turn whether it was the same key they were trying to press or not. 
+
+#### Fix 5
+* The fix for this was really quite simple. It involved me setting the current time to 0 so that the audio file would begin at the start for each and every time the key was pressed. This fix was taken from Web Dev Simplified in his [tutorial](https://www.youtube.com/watch?v=vjco5yKZpU8) on how to build a piano on Javascript. 
