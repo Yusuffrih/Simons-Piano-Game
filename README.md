@@ -243,6 +243,37 @@ The [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconl
 * [Mobile](assets/testing/lighthouse-testing-desktop.pdf)
 * [Desktop](assets/testing/lighthouse-testing-mobile.pdf)
 
+## Compatibility & Responsive Testing 
+### Device Compatibility 
+I carried out testing on all the devices through Chrome Dev Tools
+
+* Moto G4
+* Iphone 4
+* Galaxt S5
+* Pixel 2
+* Pixel 2XL
+* Iphone 5/SE
+* Iphone 6/7/8
+* Iphone 6/7/8 Plus
+* Iphone X
+* Ipad
+* Ipad pro
+* Surface Duo
+* Galaxy Fold
+
+All of the above performed as desired and worked perfectly.
+
+As I own an iPhone X myself, I decided to test the webpage physically on my own device. Unfortunately, there was an issue displaying the background image and some of the other styling applied to the page. The audio notes also did not play as perfectly as they did on the laptop's browser. 
+
+### Browser Compatibility
+To complete the cross browser compatability, I downloaded the different browsers that were needed and ensured that the webpage worked as expected on each of the following: 
+
+* [Google Chrome](https://www.google.com/chrome/?brand=FHFK&gclid=CjwKCAjwq7aGBhADEiwA6uGZp4fEdSx7ARa4pyHWgf3uPlKvIK_3udgjmpYMsWJqxwtNcoYX6q2e4xoCQ4cQAvD_BwE&gclsrc=aw.ds)
+* [Safari](https://www.apple.com/safari/)
+* [Microsoft Edge](https://www.microsoft.com/en-us/edge)
+* [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
+
+The page worked perfectly on all but Safari. This bug and its fix can be found referenced in the bugs section below.
 
 ## Bugs 
 During the development of this game, there were many bugs that were overcome. Below are some of the main bugs that were encountered and a description on how they were overcome:
@@ -276,3 +307,6 @@ During the development of this game, there were many bugs that were overcome. Be
 
 #### Fix 5
 * The fix for this was really quite simple. It involved me setting the current time to 0 so that the audio file would begin at the start for each and every time the key was pressed. This fix was taken from Web Dev Simplified in his [tutorial](https://www.youtube.com/watch?v=vjco5yKZpU8) on how to build a piano on Javascript. 
+
+
+## 
