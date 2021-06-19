@@ -309,4 +309,16 @@ During the development of this game, there were many bugs that were overcome. Be
 * The fix for this was really quite simple. It involved me setting the current time to 0 so that the audio file would begin at the start for each and every time the key was pressed. This fix was taken from Web Dev Simplified in his [tutorial](https://www.youtube.com/watch?v=vjco5yKZpU8) on how to build a piano on Javascript. 
 
 
-## 
+## Deployment
+### Github Pages
+After the coding and testing was complete, and the website was ready for deployment, the following steps were taken: 
+1. Opened Github repository
+2. Opened settings 
+3. Click into 'Pages' section on the side menu
+4. Clicke into Branches
+5. Selected 'Master Branch'
+6. Clicked save
+7. Refreshed page
+8. Awaite confirmation of deployment to Github Pages
+
+Github Pages URL is then provided: https://yusuffrih.github.io/Simons-Piano-Game/
