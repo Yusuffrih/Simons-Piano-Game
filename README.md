@@ -157,7 +157,7 @@ I created mock ups for my page to fit into the main device types - Desktop, Tabl
 * [GitPod](https://www.gitpod.io/) - Open source, online workspace used to work on my project.
 * [W3 HTML Validator](https://validator.w3.org/) - Used to validate my code to ensure that there were no errors.
 * [W3 CSS Validator](https://jigsaw.w3.org/css-validator/) - Used to validate my code to ensure that there were no errors.
-* [Google https://developer.chrome.com/docs/devtools/Chrome Dev Tools]() - A set of development tools to assist the user create web content. They are built directly into the browser
+* [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/Chrome) - A set of development tools to assist the user create web content. They are built directly into the browser
 * [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) - One of the Chrome Dev Tools which was used to assess the level of accessibility, performance and correctness that was provided by the site.
 * [JS Fiddle](https://jsfiddle.net/) - An online playground IDE used to test and trial Javascript code with HTML and CSS
 * [Youtube](https://www.youtube.com/) - Youtube videos are a great way to learn how to do different things if stuck on a particular piece of code
@@ -234,3 +234,14 @@ I created mock ups for my page to fit into the main device types - Desktop, Tabl
     - The start button has a hover state, the piano keys display a pointer cursor when the game is live and change colour when they are pressed to let the user know that their click has registered.
 * A button to enable the user to pick a colour theme for the website e.g. dark/light 
     - 
+
+
+### Lighthouse Testing
+
+The [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) tool, which can be found in [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/Chrome) is a really useful tool for testing the performance, accesibility and overall correctness of a page. All you have to do to use it is right click on a page, click inspect and click into the Lighthouse extension. Once there, all you do is generate a report for each page of the website. The report gives an overall score of how your webpage has performed in the test and it will give areas for improvement. This should be repeated for Mobile and Desktop. The reports for Simon's Piano can be found below:
+
+* [Mobile](assets/testing/lighthouse-testing-desktop.pdf)
+* [Desktop](assets/testing/lighthouse-testing-mobile.pdf)
+
+
+
