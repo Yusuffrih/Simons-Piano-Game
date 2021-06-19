@@ -322,3 +322,14 @@ After the coding and testing was complete, and the website was ready for deploym
 8. Awaite confirmation of deployment to Github Pages
 
 Github Pages URL is then provided: https://yusuffrih.github.io/Simons-Piano-Game/
+
+### Run Locally
+To run the project locally, follow these simple steps:
+1. Open the Repository
+2. Click on the 'Code' button beside the green Gitpod button
+3. Click into the HTTPS tab
+4. Copy the URL available
+5. Open your local IDE
+6. Type git clone into the terminal which should prompt you to enter your copied URL
+7. Paste the URL here
+8. Begin coding
