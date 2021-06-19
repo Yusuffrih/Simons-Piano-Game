@@ -243,13 +243,13 @@ The [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconl
 * [Mobile](assets/testing/lighthouse-testing-desktop.pdf)
 * [Desktop](assets/testing/lighthouse-testing-mobile.pdf)
 
-## Compatibility & Responsive Testing 
-### Device Compatibility 
+### Compatibility & Responsive Testing 
+#### Device Compatibility 
 I carried out testing on all the devices through Chrome Dev Tools
 
+* Galaxy S5
 * Moto G4
 * Iphone 4
-* Galaxt S5
 * Pixel 2
 * Pixel 2XL
 * Iphone 5/SE
@@ -265,7 +265,7 @@ All of the above performed as desired and worked perfectly.
 
 As I own an iPhone X myself, I decided to test the webpage physically on my own device. Unfortunately, there was an issue displaying the background image and some of the other styling applied to the page. The audio notes also did not play as perfectly as they did on the laptop's browser. 
 
-### Browser Compatibility
+#### Browser Compatibility
 To complete the cross browser compatability, I downloaded the different browsers that were needed and ensured that the webpage worked as expected on each of the following: 
 
 * [Google Chrome](https://www.google.com/chrome/?brand=FHFK&gclid=CjwKCAjwq7aGBhADEiwA6uGZp4fEdSx7ARa4pyHWgf3uPlKvIK_3udgjmpYMsWJqxwtNcoYX6q2e4xoCQ4cQAvD_BwE&gclsrc=aw.ds)
