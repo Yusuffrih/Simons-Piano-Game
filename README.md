@@ -333,3 +333,38 @@ To run the project locally, follow these simple steps:
 6. Type git clone into the terminal which should prompt you to enter your copied URL
 7. Paste the URL here
 8. Begin coding
+
+## Credits & Resources
+
+#### Freshman 
+* [Freshman - Simon Game Tutorial](https://freshman.tech/simon-game/) - This is where I got the main idea and assistance with my code structure. I used the basic logic that was used in this tutorial and applied it to my project's wireframes and made it work for me. 
+
+#### Youtube: 
+* [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified)
+    * [Build a piano with Javascript - Tutorial](https://www.youtube.com/results?search_query=build+a+piano+with+javascript) - This video was great for assisting me in creating the piano keyboard. I also used the audio files that he used as he said in his video that this was ok and he made them available on his Github repository. 
+    *  [How To Build An Advanced Light/Dark Theme Toggle](youtube.com/watch?v=RiWxhm5ZdFM&t=911s) - I used this page to learn how to use CSS variable as well as what the appraoch was to creating a colour theme toggle.
+
+* [Kevin Powell](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw)
+    * [Easy sticky footer - stop a footer from floating up a short page!](https://www.youtube.com/watch?v=yc2olxLgKLk) - This video was great for helping me fix the bug I had where I couldn't fix the footer to the bottom of the page. 
+    * [Dark Mode JavaScript toggle using localStorage](https://www.youtube.com/watch?v=wodWDIdV9BY&t=517s) - I also used this video to help inspire me to create the toggle colour theme feature on my page.  
+
+#### W3 Schools 
+* I got some good assistance throughout the development of my project from [W3 Schools](https://www.w3schools.com/). This is a brilliant website for general coding tips and tricks.
+
+#### Bootstrap
+* I used [Bootstrap 4](https://getbootstrap.com/docs/4.6/getting-started/introduction/) to assist in achieving responsive design. This is a very useful tool to use. 
+
+#### Font Awesome
+* [Font Awesome](https://fontawesome.com/) is where I went to get the icons that I used in my project. All you have to do is copy in the CDN to the head of the HTML document and use the code that they provide. 
+
+#### Other
+* [Code Institute](https://codeinstitute.net/) lecture videos really assisted in developing my programming knowledge. Any time I had a question, this was always a good port of call. 
+* Tutors at Code Institute were a brilliant resource for me to go to when I had any issues that I needed help with. 
+* Slack - There is fantastic coding community in slack that are there to help each other out and answer any questions I might have. 
+* [Coolors](https://coolors.co/) - Coolors was where I went to to generate my colour scheme for the webpage. This is a brilliant and handy tool to have available as it gives the hex value of the colour that you chose to use. 
+* Mentor session - Code institute provide each student with an industry professional as a mentor. This is a great resource as I get 3 sessions with them to discuss my project and get any questions answered about the planning of the project. 
+
+#### Images:
+* [Pexels](https://www.pexels.com/) was where I went to get the two [background images](assets/images/background) for the webpage. 
+They can be found [here](https://www.pexels.com/photo/close-up-shot-of-upright-piano-grayscale-photo-164715/) and [here](https://www.pexels.com/photo/selective-focus-photography-of-upright-piano-164769/).
+
