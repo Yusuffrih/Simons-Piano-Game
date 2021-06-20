@@ -4,8 +4,8 @@
     --color-light: #fcfcfc; 
     --color-dark: #212121;
 
-    --dark-bg-img: url('../images/background/piano-dark-bg.jpg');
-    --light-bg-img: url('../images/background/piano-light-bg.jpg');
+    --dark-bg-img: url('assets/images/background/piano-dark-bg.jpg');
+    --light-bg-img: url('assets/images/background/piano-light-bg.jpg');
 }
 
 body {
