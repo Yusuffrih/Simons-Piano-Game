@@ -2,8 +2,8 @@ const startButtonRef = document.querySelector('.start-button');
 const keyInstructionsRef = document.querySelector('.key-instructions');
 const tallyRef = document.querySelector('.tally');
 const pianoContainerRef = document.querySelector('.piano-container');
-const keysWhite = document.querySelectorAll('.white-key');
-const keysBlack = document.querySelectorAll('.black-key');
+const keysWhiteRef = document.querySelectorAll('.white-key');
+const keysBlackRef = document.querySelectorAll('.black-key');
 const colorThemeToggleRef = document.querySelector('#color-theme');
 const whiteKeyLetters = ['z', 'x', 'c', 'v', 'b', 'n', 'm'];
 const blackKeyLetters = ['s', 'd', 'g', 'h', 'j'];
@@ -136,12 +136,12 @@ document.addEventListener('keyup', e => {
     const indexOfBlack = blackKeyLetters.indexOf(key);
 
     if (indexOfWhite > -1) {
-        let {note} = keysWhite[indexOfWhite].dataset;
+        let {note} = keysWhiteRef[indexOfWhite].dataset;
         dealWithClick(note);
     }    
 
     if (indexOfBlack > -1){
-        let {note} = keysBlack[indexOfBlack].dataset;
+        let {note} = keysBlackRef[indexOfBlack].dataset;
         dealWithClick(note);
     } 
 })
