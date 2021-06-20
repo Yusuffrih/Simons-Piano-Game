@@ -42,6 +42,17 @@ body {
 
 /* ---------------------------- Buttons*/
 
+#start {
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+#start:hover {
+    border: 1px solid var(--color-light);
+    text-decoration: none;
+    background-color: var(--color-dark)
+}
+
 .btn-secondary {
     background-color: var(--color-dark);
     color: var(--color-light);
