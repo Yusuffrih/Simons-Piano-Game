@@ -1,5 +1,7 @@
 # Simon's Piano
 
+View live site [*here*](https://yusuffrih.github.io/Simons-Piano-Game/)
+
 ![Am I responsive image to go here](assets/images/readme-imgs/am-i-responsive.png)
 
 Simon's Piano is a web page that provides the user with a fun game to play. The game takes it's inspiration from the original Simon game but with it's own twist on it, the twist being that it's played through a piano keyboard. When the keys are pressed, they make a sound which represents a note on the piano.
