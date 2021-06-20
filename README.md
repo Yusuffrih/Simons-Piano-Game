@@ -236,7 +236,7 @@ I created mock ups for my page to fit into the main device types - Desktop, Tabl
 * Button feedback for every button pressed or click they make through audio and visual
     - The start button has a hover state, the piano keys display a pointer cursor when the game is live and change colour when they are pressed to let the user know that their click has registered.
 * A button to enable the user to pick a colour theme for the website e.g. dark/light 
-    - 
+    - When the colour theme button is pressed, the page goes from being predominantly a dark page to being predominantly a white page. When the button is pressed again, the page turns back to being predominantly dark again. 
 
 
 ### Lighthouse Testing
