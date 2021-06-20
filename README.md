@@ -172,7 +172,7 @@ I created mock ups for my page to fit into the main device types - Desktop, Tabl
     - When the user lands on the page, the game does not start automatically. The user gets a chance to consume what is displayed on screen and has to click on the start button above the piano keys to start the game. 
 
 * As a user, I would like to track my score throughout the game
-    - This is where the testing confirmation goes 
+    - The user can keep track of their how they are doing throughout the game in the tally section which comes up on top of the piano keys throughout the game highlighting what level they are on. 
 
 * As a user, I would like to be able to access a variety of difficulties based on my skill level
     - The further the user gets into the game, the harder it gets. The randomly generated note pattern builds on itself with each level making it more challenging. Each time the user starts a new game, they get a new randomly generated pattern to play with which
