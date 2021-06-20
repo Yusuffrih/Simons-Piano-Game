@@ -16,7 +16,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: blue;
+    background-color: var(--color-dark);
     color: var(--color-light);
     text-align: center;
     /* part 1 of fix to keep footer at bottom of page - part 2 in footer section */
