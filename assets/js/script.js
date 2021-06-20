@@ -174,6 +174,8 @@ colorThemeToggleRef.addEventListener('click', () => {
     bodyRef.classList.toggle('color-theme-change');
     headingRef.classList.toggle('color-theme-change');
     startButtonRef.classList.toggle('color-theme-change');
+    tallyRef.classList.toggle('color-theme-change');
+    keyInstructionsRef.classList.toggle('color-theme-change');
     footerRef.classList.toggle('color-theme-change');
     githubRef.classList.toggle('color-theme-change');
 })
