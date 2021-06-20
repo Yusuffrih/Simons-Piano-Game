@@ -44,7 +44,9 @@ body.color-theme-change {
 h1.color-theme-change,
 #start.color-theme-change,
 footer.color-theme-change,
-#github.color-theme-change {
+#github.color-theme-change,
+.tally.color-theme-change,
+.key-instructions.color-theme-change {
     background-color: var(--color-light);
     color: var(--color-dark);
 }
