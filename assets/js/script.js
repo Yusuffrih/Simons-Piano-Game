@@ -169,11 +169,11 @@ colorThemeToggleRef.addEventListener('click', () => {
     const bodyRef = document.body;
     const headingRef = document.querySelector('h1');
     const footerRef = document.querySelector('footer');
-    const github = document.querySelector('#github');
+    const githubRef = document.querySelector('#github');
 
     bodyRef.classList.toggle('color-theme-change');
     headingRef.classList.toggle('color-theme-change');
     startButtonRef.classList.toggle('color-theme-change');
     footerRef.classList.toggle('color-theme-change');
-    github.classList.toggle('color-theme-change');
+    githubRef.classList.toggle('color-theme-change');
 })
