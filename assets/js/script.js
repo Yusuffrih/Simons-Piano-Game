@@ -1,23 +1,22 @@
+const startButtonRef = document.querySelector('.start-button');
+const keyInstructionsRef = document.querySelector('.key-instructions');
+const tallyRef = document.querySelector('.tally');
+const pianoContainerRef = document.querySelector('.piano-container');
+const keysWhite = document.querySelectorAll('.white-key');
+const keysBlack = document.querySelectorAll('.black-key');
+const colorThemeToggleRef = document.querySelector('#color-theme');
+const whiteKeyLetters = ['z', 'x', 'c', 'v', 'b', 'n', 'm'];
+const blackKeyLetters = ['s', 'd', 'g', 'h', 'j'];
+
 let keyPattern = [];
 let playersPattern = [];
 let level = 0; 
 
-const startButton = document.querySelector('.start-button');
-const instructions = document.querySelector('.key-instructions');
-const tally = document.querySelector('.tally');
-const pianoContainer = document.querySelector('.piano-container');
-const whiteKeyLetters = ['z', 'x', 'c', 'v', 'b', 'n', 'm'];
-const blackKeyLetters = ['s', 'd', 'g', 'h', 'j'];
-const keysWhite = document.querySelectorAll('.white-key');
-const keysBlack = document.querySelectorAll('.black-key');
-const colorThemeToggle = document.querySelector('#color-theme');
-
-
 function nextStage(){
     level += 1;
     
-    pianoContainer.classList.add('unclickable');
-    instructions.innerHTML = `
+    pianoContainerRef.classList.add('unclickable');
+    keyInstructionsRef.innerHTML = `
     <p>
         Prefer the keyboard?
         <br>
@@ -26,7 +25,7 @@ function nextStage(){
         Black Keys = S,D,G,H,J
     </p>`;
 
-    tally.innerHTML = `<p>Your turn - Level ${level} of 35</p>`; 
+    tallyRef.innerHTML = `<p>Your turn - Level ${level} of 35</p>`; 
 
     const nextKeyPattern = [...keyPattern];
     nextKeyPattern.push(nextKey());
@@ -99,7 +98,7 @@ function dealWithClick(note){
 
     if (playersPattern.length === keyPattern.length) {
         playersPattern = [];
-        instructions.innerHTML = `<p>Fair Play Beethoven!</p>`;
+        keyInstructionsRef.innerHTML = `<p>Fair Play Beethoven!</p>`;
         setTimeout(() => {
             nextStage();
 
@@ -107,15 +106,15 @@ function dealWithClick(note){
         return;
     }
 
-    tally.innerHTML = `
+    tallyRef.innerHTML = `
     <p>Your turn - ${remainingTaps} Tap${remainingTaps > 1 ? 's' : '' }</p>`; 
 }
 
 function beginGame(){
-    startButton.classList.add('hidden');
-    tally.classList.remove('hidden');
-    instructions.classList.remove('hidden');
-    instructions.innerHTML = `
+    startButtonRef.classList.add('hidden');
+    tallyRef.classList.remove('hidden');
+    keyInstructionsRef.classList.remove('hidden');
+    keyInstructionsRef.innerHTML = `
     <p>
         Prefer the keyboard?
         <br>
@@ -126,7 +125,7 @@ function beginGame(){
     nextStage();
 }
 
-startButton.addEventListener('click', beginGame)
+startButtonRef.addEventListener('click', beginGame)
 
 document.addEventListener('keyup', e => {
     const key = e.key
@@ -148,7 +147,7 @@ document.addEventListener('keyup', e => {
 })
 
 
-pianoContainer.addEventListener('click', e => {
+pianoContainerRef.addEventListener('click', e => {
     const { note } = e.target.dataset;
 
     if (note) dealWithClick(note);
@@ -159,19 +158,19 @@ function restartGame(message){
     keyPattern = [];
     playersPattern = [];
     level = 0; 
-    startButton.classList.remove('hidden');
-    tally.classList.add('hidden');
-    instructions.classList.add('hidden');
-    pianoContainer.classList.add('unclickable');
+    startButtonRef.classList.remove('hidden');
+    tallyRef.classList.add('hidden');
+    keyInstructionsRef.classList.add('hidden');
+    pianoContainerRef.classList.add('unclickable');
 }
 
 function playersTurn(level){
-    pianoContainer.classList.remove('unclickable');
-    tally.innerHTML = `
+    pianoContainerRef.classList.remove('unclickable');
+    tallyRef.innerHTML = `
     <p>Your turn - ${level} Tap${level > 1 ? 's' : ''}</p>` 
 }
 
-colorThemeToggle.addEventListener('click', () => {
+colorThemeToggleRef.addEventListener('click', () => {
     const body = document.body;
     
     body.classList.toggle('color-theme-change');
