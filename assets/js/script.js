@@ -166,7 +166,14 @@ const playersTurn = (level) => {
 }
 
 colorThemeToggleRef.addEventListener('click', () => {
-    const body = document.body;
-    
-    body.classList.toggle('color-theme-change');
+    const bodyRef = document.body;
+    const headingRef = document.querySelector('h1');
+    const footerRef = document.querySelector('footer');
+    const github = document.querySelector('#github');
+
+    bodyRef.classList.toggle('color-theme-change');
+    headingRef.classList.toggle('color-theme-change');
+    startButtonRef.classList.toggle('color-theme-change');
+    footerRef.classList.toggle('color-theme-change');
+    github.classList.toggle('color-theme-change');
 })
