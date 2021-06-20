@@ -196,6 +196,7 @@ I created mock ups for my page to fit into the main device types - Desktop, Tabl
 * As a user, I would like to be able to give the game designer some feedback on how to improve the game features
     - The user will be able to provide the developer with some feedback on the game through the Github profile page
 
+*Screenshots outlining the testing for the User Stories can be found [here](/workspace/Simons-Piano-Game/assets/images/readme-imgs/user-story-testing-images).*
 
 ### Validator Testing
 #### HTML Validator
