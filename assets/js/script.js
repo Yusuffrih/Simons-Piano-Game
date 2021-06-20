@@ -12,7 +12,7 @@ let keyPattern = [];
 let playersPattern = [];
 let level = 0; 
 
-function nextStage(){
+const nextStage = () => {
     level += 1;
     
     pianoContainerRef.classList.add('unclickable');
@@ -37,7 +37,7 @@ function nextStage(){
     }, level * 600 + 1000);
 }
 
-function activateKey(note){
+const activateKey = (note) => {
     const key = document.querySelector(`[data-note='${note}']`);
     const noteSound = document.querySelector(`[data-sound='${note}']`);
 
@@ -50,7 +50,7 @@ function activateKey(note){
     },300);
 }
 
-function playStage(nextKeyPattern){
+const playStage = (nextKeyPattern) => {
     nextKeyPattern.forEach((note, index) => {
         setTimeout(() => {
             activateKey(note);
@@ -58,7 +58,7 @@ function playStage(nextKeyPattern){
     });
 }
 
-function nextKey(){
+const nextKey = () => {
     const keys = [
          'C', 'Db', 'D', 'Eb', 
          'E', 'F', 'Gb', 'G', 
@@ -68,7 +68,7 @@ function nextKey(){
     return random;
 }
 
-function dealWithClick(note){
+const dealWithClick = (note) => {
     const index = playersPattern.push(note) - 1;
     const key = document.querySelector(`[data-note='${note}']`);
     const noteSound = document.querySelector(`[data-sound='${note}']`);
@@ -110,7 +110,7 @@ function dealWithClick(note){
     <p>Your turn - ${remainingTaps} Tap${remainingTaps > 1 ? 's' : '' }</p>`; 
 }
 
-function beginGame(){
+const beginGame = () => {
     startButtonRef.classList.add('hidden');
     tallyRef.classList.remove('hidden');
     keyInstructionsRef.classList.remove('hidden');
@@ -153,7 +153,7 @@ pianoContainerRef.addEventListener('click', e => {
     if (note) dealWithClick(note);
 }); 
 
-function restartGame(message){
+const restartGame = (message) => {
     alert(message); 
     keyPattern = [];
     playersPattern = [];
@@ -164,7 +164,7 @@ function restartGame(message){
     pianoContainerRef.classList.add('unclickable');
 }
 
-function playersTurn(level){
+const playersTurn = (level) => {
     pianoContainerRef.classList.remove('unclickable');
     tallyRef.innerHTML = `
     <p>Your turn - ${level} Tap${level > 1 ? 's' : ''}</p>` 
