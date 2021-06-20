@@ -4,8 +4,8 @@
     --color-light: #fcfcfc; 
     --color-dark: #212121;
 
-    --dark-bg-img: url('assets/images/background/piano-dark-bg.jpg');
-    --light-bg-img: url('assets/images/background/piano-light-bg.jpg');
+    --dark-bg-img: url('../images/background/piano-dark-bg.jpg');
+    --light-bg-img: url('../images/background/piano-light-bg.jpg');
 }
 
 body {
@@ -212,3 +212,16 @@ footer a {
     }
 }
 
+/* safari code */
+
+@media not all and (min-resolution:.001dpcm) { 
+    @media {
+        body { 
+            background: url('../images/background/piano-dark-bg.jpg');
+            background-image: url('../images/background/piano-dark-bg.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+}
