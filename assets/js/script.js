@@ -5,6 +5,7 @@ const pianoContainerRef = document.querySelector('.piano-container');
 const keysWhiteRef = document.querySelectorAll('.white-key');
 const keysBlackRef = document.querySelectorAll('.black-key');
 const colorThemeToggleRef = document.querySelector('#color-theme');
+const keys = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
 const whiteKeyLetters = ['z', 'x', 'c', 'v', 'b', 'n', 'm'];
 const blackKeyLetters = ['s', 'd', 'g', 'h', 'j'];
 
@@ -59,13 +60,7 @@ const playStage = (nextKeyPattern) => {
 }
 
 const nextKey = () => {
-    const keys = [
-         'C', 'Db', 'D', 'Eb', 
-         'E', 'F', 'Gb', 'G', 
-         'Ab', 'A', 'Bb', 'B'];
-    const random = keys[Math.floor(Math.random()*keys.length)];
-    
-    return random;
+    return keys[Math.floor(Math.random()*keys.length)];
 }
 
 const dealWithClick = (note) => {
