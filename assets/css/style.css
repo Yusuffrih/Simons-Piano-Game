@@ -167,6 +167,10 @@ footer a {
     color: var(--color-light);
 }
 
+footer a:hover {
+    color: var(--color-light);
+}
+
 #color-theme {
     display: inline;
 }
