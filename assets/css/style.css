@@ -26,18 +26,32 @@ body {
     min-height: 100vh;
 }
 
-.color-theme-change {
-    background-image: var(--light-bg-img);
-    color: var(--color-dark);
-    background-color: var(--color-light);
-}
-
 .hidden {
     display:none !important;
 }
 
 .unclickable {
     pointer-events: none;
+}
+
+/* ------------------------------- Colour Theme  */
+
+body.color-theme-change {
+    background-image: var(--light-bg-img);
+    background-color: var(--color-light);
+}
+
+h1.color-theme-change,
+#start.color-theme-change,
+footer.color-theme-change,
+#github.color-theme-change {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+}
+
+#start.color-theme-change:hover {
+    background-color: var(--color-light);
+    border: 1px solid var(--color-dark);
 }
 
 /* ---------------------------- Buttons*/
@@ -174,6 +188,10 @@ footer a:hover {
 
 #color-theme {
     display: inline;
+}
+
+#color-theme:hover {
+    cursor: pointer;
 }
 
 #color-theme i {
