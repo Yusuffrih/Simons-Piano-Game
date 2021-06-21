@@ -102,7 +102,7 @@ There were two different colour schemes the user could chose to toggle between. 
 * Footer Elements: #212121 - Black 
 
 #### Icons
-I used some music icons to the heading to add some design to the page and keep with the music theme. 
+I used some music icons in the heading to add some design to the page and keep with the music theme. 
 
 I used two icons in the footer. One for the Github logo & one for the dark mode logo.
 
@@ -264,9 +264,7 @@ I carried out testing on all the devices through Chrome Dev Tools
 * Surface Duo
 * Galaxy Fold
 
-All of the above performed as desired and worked perfectly.
-
-As I own an iPhone X myself, I decided to test the webpage physically on my own device. Unfortunately, there was an issue displaying the background image and some of the other styling applied to the page. The audio notes also did not play as perfectly as they did on the laptop's browser. 
+All of the above performed as desired.
 
 #### Browser Compatibility
 To complete the cross browser compatability, I downloaded the different browsers that were needed and ensured that the webpage worked as expected on each of the following: 
@@ -311,6 +309,11 @@ During the development of this game, there were many bugs that were overcome. Be
 #### Fix 5
 * The fix for this was really quite simple. It involved me setting the current time to 0 so that the audio file would begin at the start for each and every time the key was pressed. This fix was taken from Web Dev Simplified in his [tutorial](https://www.youtube.com/watch?v=vjco5yKZpU8) on how to build a piano on Javascript. 
 
+#### Bug 6 
+* When on Safari, the background image did not display which made the whole page look odd. 
+
+#### Fix 6 
+* Added code snippet from Stack Overflow to display the background image in the Safari browser. This code snippet was a media query that targeted Safari specifically to allow that code to be rendered. All other CSS other than the images rendered as expected without the use of this media query. This code also threw up an error in Gitpod, however, when I ran the code through the css validator, it didn't give the same error. Also, if I tried to get rid of the error by removing the second media quey, the code didn't work anymore.
 
 ## Deployment
 ### Github Pages
