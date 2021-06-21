@@ -259,5 +259,10 @@ footer a:hover {
             background-repeat: no-repeat;
             background-size: cover;
         }
+
+        body.color-theme-change {
+            background-image: var(--light-bg-img);
+            background-color: var(--color-light);
+        }
     /* } */
 }
