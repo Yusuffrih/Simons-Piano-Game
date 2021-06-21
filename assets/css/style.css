@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Dancing+Script:wght@400;500;600;700&display=swap');
 
 :root {
@@ -21,8 +28,13 @@ body {
     text-align: center;
     /* part 1 of fix to keep footer at bottom of page - part 2 in footer section */
     /* This fix was taken from https://www.youtube.com/watch?v=yc2olxLgKLk */ 
+    display:-webkit-box; 
+    display:-ms-flexbox; 
     display:flex;   
-    flex-direction: column;
+    -webkit-box-orient: vertical;   
+    -webkit-box-direction: normal;   
+        -ms-flex-direction: column;   
+            flex-direction: column;
     min-height: 100vh;
 }
 
@@ -85,6 +97,8 @@ header {
 
 h1 {
     background-color: var(--color-dark);
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
     max-width: fit-content;
     padding: 5px;
     border-radius: 10px;
@@ -96,6 +110,8 @@ h1 {
     font-size: 1.25rem;
     background-color: var(--color-dark);
     border-radius: 10px;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
     max-width: fit-content;
     padding: 5px;
 }
@@ -104,6 +120,8 @@ h1 {
     font-size: 1.5rem;
     background-color: var(--color-dark);
     border-radius: 10px;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
     max-width: fit-content;
     padding: 5px;
 }
@@ -119,9 +137,15 @@ h1 {
 'Web Dev Simplified' https://www.youtube.com/watch?v=vjco5yKZpU8&t=668s */
 
 .piano-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 20px 0 20px 0;
     margin: 0 auto;
     height: 45vh;
@@ -156,7 +180,8 @@ h1 {
     height: 50%;
     width: 7.14%;
     background-color: #212121;
-    align-self:flex-start;
+    -ms-flex-item-align:start;
+        align-self:flex-start;
     border-radius: 5px;
     font-size: 1rem;
     margin-left: -3.57%;
@@ -172,8 +197,11 @@ h1 {
 /* ------------------------------------ Footer */
 
 footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     background-color: var(--color-dark);
     width: 100%;
     margin-top: auto; /* part 2 of fix to keep footer at bottom of page*/
@@ -249,7 +277,7 @@ footer a:hover {
 }
 
 /* ------------------------------ safari code */
-/* The below fix for Safari was taken from Stack Overflow -
+/* The below fix for background images not displaying in Safari was taken from Stack Overflow -
 https://stackoverflow.com/questions/16348489/is-there-a-css-hack-for-safari-only-not-chrome */
 
 @media not all and (min-resolution:.001dpcm) { 
