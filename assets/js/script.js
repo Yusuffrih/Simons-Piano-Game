@@ -4,10 +4,15 @@ const tallyRef = document.querySelector('.tally');
 const pianoContainerRef = document.querySelector('.piano-container');
 const keysWhiteRef = document.querySelectorAll('.white-key');
 const keysBlackRef = document.querySelectorAll('.black-key');
+const bodyRef = document.body;
+const headingRef = document.querySelector('h1');
+const footerRef = document.querySelector('footer');
+const githubRef = document.querySelector('#github');
 const colorThemeToggleRef = document.querySelector('#color-theme');
 const keys = ['C', 'Db', 'D', 'Eb', 'E', 'F', 'Gb', 'G', 'Ab', 'A', 'Bb', 'B'];
 const whiteKeyLetters = ['z', 'x', 'c', 'v', 'b', 'n', 'm'];
 const blackKeyLetters = ['s', 'd', 'g', 'h', 'j'];
+const elementsForColorChange = [bodyRef, headingRef, tallyRef, keyInstructionsRef, footerRef, githubRef, startButtonRef]
 
 let keyPattern = [];
 let playersPattern = [];
@@ -126,7 +131,7 @@ document.addEventListener('keyup', e => {
     const key = e.key
     /* Index trick taken from WDS 
     (https://www.youtube.com/watch?v=vjco5yKZpU8)
-    and adampted for my code */
+    and adapted for my code */
     const indexOfWhite = whiteKeyLetters.indexOf(key);
     const indexOfBlack = blackKeyLetters.indexOf(key);
 
@@ -166,16 +171,8 @@ const playersTurn = (level) => {
 }
 
 colorThemeToggleRef.addEventListener('click', () => {
-    const bodyRef = document.body;
-    const headingRef = document.querySelector('h1');
-    const footerRef = document.querySelector('footer');
-    const githubRef = document.querySelector('#github');
-
-    bodyRef.classList.toggle('color-theme-change');
-    headingRef.classList.toggle('color-theme-change');
-    startButtonRef.classList.toggle('color-theme-change');
-    tallyRef.classList.toggle('color-theme-change');
-    keyInstructionsRef.classList.toggle('color-theme-change');
-    footerRef.classList.toggle('color-theme-change');
-    githubRef.classList.toggle('color-theme-change');
+    let i = 0;
+    for (i; i<elementsForColorChange.length; i++) {
+        elementsForColorChange[i].classList.toggle('color-theme-change')
+    }
 })
