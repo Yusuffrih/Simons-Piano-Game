@@ -262,10 +262,10 @@ https://stackoverflow.com/questions/16348489/is-there-a-css-hack-for-safari-only
             background-size: cover;
         }
 
-        body.color-theme-change {
+        /* body.color-theme-change {
             background: url('../images/background/piano-light-bg.jpg');
             background-image: url('../images/background/piano-light-bg.jpg');
             background-color: var(--color-light);
-        }
+        } */
     }
 }
