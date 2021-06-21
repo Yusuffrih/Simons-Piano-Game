@@ -251,7 +251,7 @@ footer a:hover {
 /* safari code */
 
 @media not all and (min-resolution:.001dpcm) { 
-    @media {
+    /* @media { */
         body { 
             background: url('../images/background/piano-dark-bg.jpg');
             background-image: url('../images/background/piano-dark-bg.jpg');
@@ -259,5 +259,5 @@ footer a:hover {
             background-repeat: no-repeat;
             background-size: cover;
         }
-    }
+    /* } */
 }
