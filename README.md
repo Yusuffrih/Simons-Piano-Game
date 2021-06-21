@@ -26,7 +26,15 @@ Simon's Piano aims to be a really simple game and web-page overall that doesn't 
     * Implemented Features
     * Features Not Yet Implemented
 * Technologies Used
+    * Languages
+    * Frameworks & Libraries
+    * Tools
 * Testing
+    * User Story Testing
+    * Validator Testing 
+    * Feature Testing 
+    * Lighthouse Testing
+    * Compatability Testing
 * Bugs
 * Deployment
 * Credits
@@ -133,12 +141,12 @@ I created mock ups for my page to fit into the main device types - Desktop, Tabl
 * Button feedback for every button pressed or click they make through audio and visual
 * A button to enable the user to pick a colour theme for the website e.g. dark/light 
 
-### Features Yet To Be Implemented 
+### Features Not Yet Implemented
 * Feedback form operating through Email.js which provides the user with a personalised & automatic response to let them know that their feedback has been received - Cold not implement this feature due to time constraints
 * Have actual songs played through the piano for the user to attempt to repeat as a different game mode. This would give the user some variety and constibute to achieving one of the project's goals of teaching the user to play music - Again, time constraints didn't allow for this to be implemented
 
 
-## Technologies
+## Technologies Used
 
 ### Languages
 * [HTML 5](https://en.wikipedia.org/wiki/HTML) - HTML5 is a markup language I used for structuring and presenting content of my site
