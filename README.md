@@ -360,6 +360,9 @@ To run the project locally, follow these simple steps:
 #### Font Awesome
 * [Font Awesome](https://fontawesome.com/) is where I went to get the icons that I used in my project. All you have to do is copy in the CDN to the head of the HTML document and use the code that they provide. 
 
+#### Stack Overflow 
+* I got a fix for the background images not displaying in Safari from [Stack Overflow](https://stackoverflow.com/) from this code snippet [here](https://stackoverflow.com/questions/16348489/is-there-a-css-hack-for-safari-only-not-chrome)
+
 #### Other
 * [Code Institute](https://codeinstitute.net/) lecture videos really assisted in developing my programming knowledge. Any time I had a question, this was always a good port of call. 
 * Tutors at Code Institute were a brilliant resource for me to go to when I had any issues that I needed help with. 
