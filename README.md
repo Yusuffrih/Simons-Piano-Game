@@ -366,10 +366,12 @@ To run the project locally, follow these simple steps:
 #### Stack Overflow 
 * I got a fix for the background images not displaying in Safari from [Stack Overflow](https://stackoverflow.com/) from this code snippet [here](https://stackoverflow.com/questions/16348489/is-there-a-css-hack-for-safari-only-not-chrome)
 
-#### Other
+#### Code Institute
 * [Code Institute](https://codeinstitute.net/) lecture videos really assisted in developing my programming knowledge. Any time I had a question, this was always a good port of call. 
 * Tutors at Code Institute were a brilliant resource for me to go to when I had any issues that I needed help with. 
 * Slack - There is fantastic coding community in slack that are there to help each other out and answer any questions I might have. 
+
+#### Coolors
 * [Coolors](https://coolors.co/) - Coolors was where I went to to generate my colour scheme for the webpage. This is a brilliant and handy tool to have available as it gives the hex value of the colour that you chose to use. 
 * Mentor session - Code institute provide each student with an industry professional as a mentor. This is a great resource as I get 3 sessions with them to discuss my project and get any questions answered about the planning of the project. 
 
@@ -377,3 +379,11 @@ To run the project locally, follow these simple steps:
 * [Pexels](https://www.pexels.com/) was where I went to get the two [background images](assets/images/background) for the webpage. 
 They can be found [here](https://www.pexels.com/photo/close-up-shot-of-upright-piano-grayscale-photo-164715/) and [here](https://www.pexels.com/photo/selective-focus-photography-of-upright-piano-164769/).
 
+## Final Comments
+
+I would like to thank the following for all of the assistance throughout the development of this project:
+
+* Everybody on the Slack community for always being on hand to answer any questions I had
+* My family and partner for being so patient with me throughout the stressful process.
+* Code Institute Tutors
+* My Mentor Simen Daehlin for all of the great advice and wisdom he passed onto me throughout
