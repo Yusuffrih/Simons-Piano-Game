@@ -148,6 +148,10 @@ const beginGame = () => {
 
 startButtonRef.addEventListener('click', beginGame)
 
+/**
+ * Listens for keyup ev. & passes 
+ * corresponding note to dealWithClick
+ */
 document.addEventListener('keyup', e => {
     const key = e.key
     /* Index trick taken from WDS 
