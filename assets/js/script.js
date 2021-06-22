@@ -18,6 +18,10 @@ let keyPattern = [];
 let playersPattern = [];
 let level = 0; 
 
+/**
+ * moves the game onto the next stage/level
+ *
+ */
 const nextStage = () => {
     level += 1;
     
@@ -46,7 +50,7 @@ const nextStage = () => {
 /**
  * returns activated key & corresponding note audio
  * 
- * @param {*} note 
+ * @param {string} note 
  */
 const activateKey = (note) => {
     const key = document.querySelector(`[data-note='${note}']`);
