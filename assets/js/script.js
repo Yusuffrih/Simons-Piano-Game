@@ -146,6 +146,10 @@ const beginGame = () => {
     nextStage();
 }
 
+/**
+ * Listens for click on start button &
+ * triggers beginGame
+ */
 startButtonRef.addEventListener('click', beginGame)
 
 /**
@@ -153,10 +157,12 @@ startButtonRef.addEventListener('click', beginGame)
  * corresponding note to dealWithClick
  */
 document.addEventListener('keyup', e => {
+    /**
+     * Index trick taken from WDS 
+     * (https://www.youtube.com/watch?v=vjco5yKZpU8)
+     * and adapted for my code
+     */
     const key = e.key
-    /* Index trick taken from WDS 
-    (https://www.youtube.com/watch?v=vjco5yKZpU8)
-    and adapted for my code */
     const indexOfWhite = whiteKeyLetters.indexOf(key);
     const indexOfBlack = blackKeyLetters.indexOf(key);
 
