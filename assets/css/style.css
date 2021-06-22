@@ -22,7 +22,7 @@ html {
 
 body {
     font-family: 'Dancing Script', 'Lato', sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 0 auto;
     background-image: var(--dark-bg-img);
     background-position: center;
@@ -50,6 +50,7 @@ header {
 
 h1 {
     background-color: var(--color-dark);
+    font-size: 4rem;
     max-width: -webkit-fit-content;
     max-width: -moz-fit-content;
     max-width: fit-content;
@@ -113,6 +114,7 @@ footer.color-theme-change,
 #start {
     padding: 5px;
     margin-bottom: 2px;
+    text-transform: uppercase;
 }
 
 #start:hover {
@@ -207,7 +209,7 @@ https://www.youtube.com/watch?v=vjco5yKZpU8&t=668s */
     -ms-flex-item-align:start;
     align-self:flex-start;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 1.6rem;
     margin-left: -3.57%;
     margin-right: -3.57%;
     z-index: 2;
@@ -248,7 +250,7 @@ footer a:hover {
     .btn-secondary,
     .white-key p,
     .black-key p {
-        font-size: 80%;
+        font-size: 0.9em;
     }
 }
 
@@ -258,7 +260,7 @@ footer a:hover {
     .btn-secondary,
     .white-key p,
     .black-key p {
-        font-size: 90%;
+        font-size: 0.9em;
     }
 }
 
