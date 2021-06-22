@@ -36,6 +36,43 @@ body {
     min-height: 100vh;
 }
 
+/* Header */
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    background-color: var(--color-dark);
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* Footer */
+
+footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    background-color: var(--color-dark);
+    width: 100%;
+    margin-top: auto;
+    padding: 15px;
+}
+
+footer a {
+    color: var(--color-light);
+}
+
+
+/* General */
+
 .hidden {
     display:none !important;
 }
@@ -84,22 +121,6 @@ footer.color-theme-change,
     background-color: var(--color-dark);
     color: var(--color-light);
     border-radius: 15px;
-}
-
-/* Header */
-
-header {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-h1 {
-    background-color: var(--color-dark);
-    max-width: -webkit-fit-content;
-    max-width: -moz-fit-content;
-    max-width: fit-content;
-    padding: 5px;
-    border-radius: 10px;
 }
 
 /* Instructions & Tally */
@@ -193,22 +214,6 @@ https://www.youtube.com/watch?v=vjco5yKZpU8&t=668s */
 
 
 /* Footer */
-
-footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    background-color: var(--color-dark);
-    width: 100%;
-    margin-top: auto;
-    padding: 15px;
-}
-
-footer a {
-    color: var(--color-light);
-}
 
 footer a:hover {
     color: var(--color-light);
