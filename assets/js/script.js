@@ -174,6 +174,10 @@ pianoContainerRef.addEventListener('click', e => {
     if (note) dealWithClick(note);
 }); 
 
+/**
+ * returns game to its original state
+ * @param {string} message 
+ */
 const restartGame = (message) => {
     alert(message); 
     keyPattern = [];
