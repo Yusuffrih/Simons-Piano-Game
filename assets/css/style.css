@@ -10,6 +10,7 @@
 :root {
     --color-light: #fcfcfc; 
     --color-dark: #212121;
+    --color-ivory: #fffff0;
 
     --dark-bg-img: url('../images/background/piano-dark-bg.jpg');
     --light-bg-img: url('../images/background/piano-light-bg.jpg');
@@ -173,10 +174,10 @@ https://www.youtube.com/watch?v=vjco5yKZpU8&t=668s */
 .white-key {
     height: 100%;
     width: 14.28%;
-    background-color: ivory;
+    background-color:var(--color-ivory);
     border-radius: 5px;
-    color: black;
-    border: 1px solid #3F4045;
+    color: var(--color-dark);
+    border: 1px solid var(--color-dark);
 }
 
 .white-key p,
@@ -186,7 +187,7 @@ https://www.youtube.com/watch?v=vjco5yKZpU8&t=668s */
 }
 
 .white-key.active {
-    background-color: #d4d2d2;
+    background-color: var(--color-dark);
 }
 
 .white-key:hover,
@@ -198,7 +199,7 @@ https://www.youtube.com/watch?v=vjco5yKZpU8&t=668s */
 .black-key {
     height: 50%;
     width: 7.14%;
-    background-color: #212121;
+    background-color: var(--color-dark);
     -ms-flex-item-align:start;
     align-self:flex-start;
     border-radius: 5px;
@@ -209,7 +210,7 @@ https://www.youtube.com/watch?v=vjco5yKZpU8&t=668s */
 }
 
 .black-key.active {
-    background-color: #615d5d;
+    background-color: var(--color-ivory);
 }
 
 
