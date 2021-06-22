@@ -189,6 +189,10 @@ const restartGame = (message) => {
     pianoContainerRef.classList.add('unclickable');
 }
 
+/**
+ * returns game area ready to play for player
+ * @param {number} level 
+ */
 const playersTurn = (level) => {
     pianoContainerRef.classList.remove('unclickable');
     tallyRef.innerHTML = `
