@@ -238,43 +238,21 @@ footer a:hover {
 /* Responsive Design - Media Queries  */
 
 @media screen and (max-width:281px) {
-    h1 {
-        font-size: 80%;
-    }
-
-    .btn-secondary {
-        font-size: 80%;
-    }
-
+    h1,
+    footer,
+    .btn-secondary,
     .white-key p,
     .black-key p {
-        font-size: 80%;
-    }
-
-    footer{
         font-size: 80%;
     }
 }
 
 @media screen and (min-width:282px) and (max-width:380px){
-    h1 {
-        font-size: 90%;
-    }
-
-    .btn-secondary {
-        font-size: 90%;
-    }
-
-    .piano-container {
-        min-height: 35vh;
-    }
-
+    h1,
+    footer,
+    .btn-secondary,
     .white-key p,
     .black-key p {
-        font-size: 90%;
-    }
-
-    footer{
         font-size: 90%;
     }
 }
