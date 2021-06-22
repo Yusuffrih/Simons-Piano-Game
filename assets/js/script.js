@@ -73,6 +73,10 @@ const playStage = (nextKeyPattern) => {
     });
 }
 
+/**
+ * returns a randomly generated key
+ * @returns {string} key
+ */
 const nextKey = () => {
     return keys[Math.floor(Math.random()*keys.length)];
 }
