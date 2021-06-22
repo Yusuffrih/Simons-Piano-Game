@@ -43,6 +43,11 @@ const nextStage = () => {
     }, level * 600 + 1000);
 }
 
+/**
+ * returns activated key & corresponding note audio
+ * 
+ * @param {*} note 
+ */
 const activateKey = (note) => {
     const key = document.querySelector(`[data-note='${note}']`);
     const noteSound = document.querySelector(`[data-sound='${note}']`);
