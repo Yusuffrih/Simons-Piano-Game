@@ -26,15 +26,13 @@ body {
     background-color: var(--color-dark);
     color: var(--color-light);
     text-align: center;
-    /* part 1 of fix to keep footer at bottom of page - part 2 in footer section */
-    /* This fix was taken from https://www.youtube.com/watch?v=yc2olxLgKLk */ 
     display:-webkit-box; 
     display:-ms-flexbox; 
     display:flex;   
     -webkit-box-orient: vertical;   
     -webkit-box-direction: normal;   
-        -ms-flex-direction: column;   
-            flex-direction: column;
+    -ms-flex-direction: column;   
+    flex-direction: column;
     min-height: 100vh;
 }
 
@@ -46,7 +44,7 @@ body {
     pointer-events: none;
 }
 
-/* ------------------------------- Colour Theme  */
+/* Colour Theme  */
 
 body.color-theme-change {
     background-image: var(--light-bg-img);
@@ -68,7 +66,7 @@ footer.color-theme-change,
     border: 1px solid var(--color-dark);
 }
 
-/* ---------------------------- Buttons*/
+/* Buttons*/
 
 #start {
     padding: 5px;
@@ -88,7 +86,7 @@ footer.color-theme-change,
     border-radius: 15px;
 }
 
-/* --------------------------- Header */
+/* Header */
 
 header {
     padding-top: 20px;
@@ -104,7 +102,7 @@ h1 {
     border-radius: 10px;
 }
 
-/* ----------------------------- Instructions & Tally */
+/* Instructions & Tally */
 
 .key-instructions {
     font-size: 1.25rem;
@@ -131,21 +129,21 @@ h1 {
     margin-bottom: 0;
 }
 
-/* ---------------------------- Game area */
+/* Game area */
 
-/* Some CSS techniques for piano and keys inspired by 
-'Web Dev Simplified' https://www.youtube.com/watch?v=vjco5yKZpU8&t=668s */
+/* Some CSS techniques for piano and keys inspired by 'Web Dev Simplified' 
+https://www.youtube.com/watch?v=vjco5yKZpU8&t=668s */
 
 .piano-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding: 20px 0 20px 0;
     margin: 0 auto;
     height: 45vh;
@@ -181,7 +179,7 @@ h1 {
     width: 7.14%;
     background-color: #212121;
     -ms-flex-item-align:start;
-        align-self:flex-start;
+    align-self:flex-start;
     border-radius: 5px;
     font-size: 1rem;
     margin-left: -3.57%;
@@ -194,17 +192,17 @@ h1 {
 }
 
 
-/* ------------------------------------ Footer */
+/* Footer */
 
 footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
     background-color: var(--color-dark);
     width: 100%;
-    margin-top: auto; /* part 2 of fix to keep footer at bottom of page*/
+    margin-top: auto;
     padding: 15px;
 }
 
@@ -276,7 +274,7 @@ footer a:hover {
     }
 }
 
-/* ------------------------------ safari code */
+/* safari code */
 /* The below fix for background images not displaying in Safari was taken from Stack Overflow -
 https://stackoverflow.com/questions/16348489/is-there-a-css-hack-for-safari-only-not-chrome */
 
