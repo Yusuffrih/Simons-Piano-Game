@@ -65,6 +65,10 @@ const activateKey = (note) => {
     },300);
 }
 
+/**
+ * returns the level to be played incl. next key 
+ * @param {string} nextKeyPattern 
+ */
 const playStage = (nextKeyPattern) => {
     nextKeyPattern.forEach((note, index) => {
         setTimeout(() => {
