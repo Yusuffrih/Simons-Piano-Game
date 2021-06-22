@@ -85,6 +85,12 @@ const nextKey = () => {
     return keys[Math.floor(Math.random()*keys.length)];
 }
 
+/**
+ * returns activated note & returns a message 
+ * to the player depending on note input 
+ * @param {string} note 
+ * @returns {string}
+ */
 const dealWithClick = (note) => {
     const index = playersPattern.push(note) - 1;
     const key = document.querySelector(`[data-note='${note}']`);
