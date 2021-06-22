@@ -127,6 +127,10 @@ const dealWithClick = (note) => {
     <p>Your turn - ${remainingTaps} Tap${remainingTaps > 1 ? 's' : '' }</p>`; 
 }
 
+/**
+ * returns the game area ready for game to begin
+ * triggers nextStage()
+ */
 const beginGame = () => {
     startButtonRef.classList.add('hidden');
     tallyRef.classList.remove('hidden');
