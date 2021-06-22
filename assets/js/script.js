@@ -20,7 +20,6 @@ let level = 0;
 
 /**
  * moves the game onto the next stage/level
- *
  */
 const nextStage = () => {
     level += 1;
