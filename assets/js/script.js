@@ -167,7 +167,10 @@ document.addEventListener('keyup', e => {
     } 
 })
 
-
+/**
+ * Listens for mouse click on piano key
+ * passes corresponding note to dealWithClick
+ */
 pianoContainerRef.addEventListener('click', e => {
     const { note } = e.target.dataset;
 
