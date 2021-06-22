@@ -200,6 +200,10 @@ const playersTurn = (level) => {
     <p>Your turn - ${level} Tap${level > 1 ? 's' : ''}</p>` 
 }
 
+/**
+ * Listens for click on color theme toggle button &
+ * changes relevant elements to correct colors
+ */
 colorThemeToggleRef.addEventListener('click', () => {
     let i = 0;
     for (i; i<elementsForColorChange.length; i++) {
