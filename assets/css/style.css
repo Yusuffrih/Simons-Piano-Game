@@ -16,6 +16,10 @@
     --light-bg-img: url('../images/background/piano-light-bg.jpg');
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
     font-family: 'Dancing Script', 'Lato', sans-serif;
     font-size: 2rem;
