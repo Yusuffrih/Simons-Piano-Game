@@ -99,7 +99,7 @@ h1.color-theme-change,
 footer.color-theme-change,
 #github.color-theme-change,
 .tally.color-theme-change,
-.key-instructions.color-theme-change {
+#key-instructions.color-theme-change {
     background-color: var(--color-light);
     color: var(--color-dark);
 }
@@ -132,7 +132,7 @@ footer.color-theme-change,
 
 /* Instructions & Tally */
 
-.key-instructions {
+#key-instructions {
     font-size: 2.4rem;
     background-color: var(--color-dark);
     border-radius: 10px;
@@ -152,7 +152,7 @@ footer.color-theme-change,
     padding: 5px;
 }
 
-.key-instructions p, 
+#key-instructions p, 
 .tally p {
     margin-bottom: 0;
 }

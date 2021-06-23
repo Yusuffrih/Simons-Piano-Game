@@ -1,5 +1,5 @@
 const startButtonRef = document.querySelector('.start-button');
-const keyInstructionsRef = document.querySelector('.key-instructions');
+const keyInstructionsRef = document.querySelector('#key-instructions');
 const tallyRef = document.querySelector('.tally');
 const pianoContainerRef = document.querySelector('#piano-container');
 const keysWhiteRef = document.querySelectorAll('.white-key');
