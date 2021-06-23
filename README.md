@@ -239,15 +239,15 @@ I created mock ups for my page to fit into the main device types - Desktop, Tabl
 
 - **Result**: The start button on the page looks well, is easy to see and works as it is intended in that it triggers the begin game function once clicked. 
 
-3. Score area outlining the score and the level the user has reached
-- **Plan**: 
+3. Score area 
+- **Plan**: This is the section of the game that outlines the  score and the level the user has reached once they have played their turn. This feature also should let the user know how many taps they have to input once the pattern has played through and it's their turn to repeat the pattern.
 
-- **Implementation**:
+- **Implementation**: I created a div element in the html that had a class of hidden so that it was of course hidden when the game wasn't in play. When the game started the idea is that the hidden class would be removed, the hidden class would also be added to the start button feature at this point. The inner html of that div displayed the dynamic level that the user was at using template literals.   
 
-- **Test**:
+- **Test**: The test for this feature was that when I clicked the start game button, did the level the user was on appear in the place of the start button. It should also display the correct message including the correct level. Also, once the random pattern is finished playing and it's the user's turn to repeat the pattern, the number of taps, mirroring the level they are on should be displayed. This number should also begin to decrease as the user inputs the pattern as they remember it. 
 
 - **Result**: 
-The score area is located on top of the piano and replaces the start button when pressed. This brings the users attention to this and allows them to keep track of how many levels they have got past and how many correct taps they have to input to get to the next level
+The score area was located on top of the piano and replaces the start button when pressed. This brings the users attention to this and allows them to keep track of how many levels they have got past and how many correct taps they have to input to get to the next level. The number of taps remaining also decreases by one for every tap they input. 
 
 4. Interactive black and white piano keys
 - **Plan**: 
