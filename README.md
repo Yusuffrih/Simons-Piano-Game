@@ -239,7 +239,7 @@ I created mock ups for my page to fit into the main device types - Desktop, Tabl
 
 - **Result**: The start button on the page looks well, is easy to see and works as it is intended in that it triggers the begin game function once clicked. 
 
-3. Score area 
+3. ### Score area 
 - **Plan**: This is the section of the game that outlines the  score and the level the user has reached once they have played their turn. This feature also should let the user know how many taps they have to input once the pattern has played through and it's their turn to repeat the pattern.
 
 - **Implementation**: I created a div element in the html that had a class of hidden so that it was of course hidden when the game wasn't in play. When the game started the idea is that the hidden class would be removed, the hidden class would also be added to the start button feature at this point. The inner html of that div displayed the dynamic level that the user was at using template literals.   
@@ -249,7 +249,7 @@ I created mock ups for my page to fit into the main device types - Desktop, Tabl
 - **Result**: 
 The score area was located on top of the piano and replaces the start button when pressed. This brings the users attention to this and allows them to keep track of how many levels they have got past and how many correct taps they have to input to get to the next level. The number of taps remaining also decreases by one for every tap they input. 
 
-4. Interactive black and white piano keys
+4. ### Interactive black and white piano keys
 - **Plan**: I want the piano keys to be the main game area. They have to give the look and feel of a real piano keyboard. The piano keys need to be interactive to the users actions i.e. when they click on the individual piano keys, there needs to be something happening as a result. There needs to be a sound and there needs to be visual feedback to let the user know that they have clicked the key. I don't want the piano keys to be usable when the game is not live.
 
 - **Implementation**: I created the piano keys from div elements. Each key has its own div and I used display flex to make sure they line up horizontally. There was also some other CSS techniques used to make it look more like a paino. To make it interactive, I created an event handler to trigger a function that deals with the clicks/keyboard events. Once this is triggered, the audio file is accessed and the piano key is given the CSS class of active which makes it look different. In order to make the keys unusable when the game isn't live, I added a class to the divs and styled that in CSS to not allow any pointer events. 
@@ -258,7 +258,7 @@ The score area was located on top of the piano and replaces the start button whe
 
 - **Result**: The piano keys are fully interactive but only when the game is live i.e. The player presses the start button. When the player has their mouse hovered over the piano keys during the game, their cursor will display as a pointer letting them know that they can click. When the keys are clicked, they change colour for the duration of the note audio that is played, just as expected. 
 
-5. Musical audio notes attached to the corresponding piano keys
+5. ### Musical audio notes attached to the corresponding piano keys
 - **Plan**: Once the piano keys are activated, either by clicking on them with the mouse or by using the corresponding keyboard keys, the user should here a musical note which corresponds to that key played. 
 
 - **Implementation**: To implement this, I created the uploaded some audio files to the project and matched them up to the corresponding key by giving them an identical value for their dataset. Once they key was activated, this extracted the note which corresponded to the correct audio file. Then this audio note was played. 
@@ -267,7 +267,7 @@ The score area was located on top of the piano and replaces the start button whe
 
 - **Result**: The notes are played when the player clicks the piano keys. This is a nice feature to give a realistic piano feel to the player. When the player clicks a key more than once in quick succession, the note restarts immediately on each click rather than having to wait for the first itteration to finish playing.
 
-6. Footer which provides the user a link to the site owners Github profile
+6. ### Link to Github profile
 - **Plan**: The footer of the page should include a link to the developer's Github profile page. 
 
 - **Implementation**: Add a link element to the footer section of the html and include the url to the page and ensure that it opens in a new tab by adding a target attribute with a value of "_blank". I also made the link display as a Github icon. 
@@ -276,7 +276,7 @@ The score area was located on top of the piano and replaces the start button whe
 
 - **Result**: There is a link to the site owners GitHub profile displayed as a Github icon in the footer of the page which opens a new tab for the user.
 
-7. A responsive design that accomodates multiple devices
+7. ### A responsive design 
 - **Plan**: The website needs to be responsive to different screen sizes so that it looks good and provides a positive user experience no matter what the size of the screen or type of device. 
 
 - **Implementation**: To provide for responsive design, Bootstrap's grid layout was used to create a proportionate layout on the screen at different breakpoints. I also used some custom breakpoints to change the font sizes at different screen widths to ensure that everything fit on the right lines and looked right. 
@@ -285,15 +285,14 @@ The score area was located on top of the piano and replaces the start button whe
 
 - **Result**: The responsive design is fully functional across all device sizes. All the different screen sizes and all of the different elements look good and fit just right. 
 
-8. The ability to play the game with the keyboard to give the player more of an authentic piano feeling
-- **Plan**: 
+8. ### Keyboard keyup responsive piano keys
+- **Plan**: The player should be able to use the keyboard instead of the mouse to activate the piano keys. The reason for this is to give the user a more realistic feeling when they are playing as the layout of the keys on the keyboard are very similar to that of the piano keys.
 
-- **Implementation**:
+- **Implementation**: Implementing this meant setting up an event handler on the document to listen to the keyup event to occur. I set up an array of keys that would be used to play the game and then matched them up to the corresponding piano keys based on their note. Once this was done, it then passed that note through the function that deals with the activated key. 
 
-- **Test**:
+- **Test**: Once the keyboard key is pressed during the players turn, the key note should be played and the piano key should change colour to show the user that their input has been picked up by the computer. 
 
-- **Result**: 
-    - The player can play the piano keys through their keyboard which allows for a more realistic piano playing experience.
+- **Result**: The player can play the piano keys through their keyboard which allows for a more realistic piano playing experience. The keys change colour as well which provides for player feedback and makes it easier for them to follow what they are doing on screen.
 
 9. Instructions for what keys to use to play the piano keys
 - **Plan**: 
