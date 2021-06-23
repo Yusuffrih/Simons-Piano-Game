@@ -162,7 +162,7 @@ footer.color-theme-change,
 /* Some CSS techniques for piano and keys inspired by 'Web Dev Simplified' 
 https://www.youtube.com/watch?v=vjco5yKZpU8&t=668s */
 
-.piano-container {
+#piano-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
