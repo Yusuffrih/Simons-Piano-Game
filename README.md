@@ -203,7 +203,7 @@ I created mock ups for my page to fit into the main device types - Desktop, Tabl
 * As a user, I would like to be able to give the game designer some feedback on how to improve the game features
     - The user will be able to provide the developer with some feedback on the game through the Github profile page
 
-*Screenshots outlining the testing for the User Stories can be found [here](/workspace/Simons-Piano-Game/assets/images/readme-imgs/user-story-testing-images).*
+*Screenshots outlining the testing for the User Stories can be found [here](wireframes/testing/user-stories).*
 
 ### Validator Testing
 #### HTML Validator
@@ -309,8 +309,7 @@ The score area was located on top of the piano and replaces the start button whe
 
 - **Test**: The user clicks on the start button, the game should start via the event listener as described above. Once they click on the piano keys, they should change colour and play a sound as described above. Once they click on the dark mode button in the footer, the colour scheme of the entire page changes. This was achieved through an event handler in Javascript and by applying styling to the elements based on the click. The Github link also opens up in a new tab once clicked using a link element and a target of "_blank". 
 
-- **Result**: 
-    The user clicks on the start button, the game starts via the event listener as described above. Once they click on the piano keys, they change colour and play a sound as described above. Once they click on the dark mode button in the footer, the colour scheme of the entire page changes. This was achieved through an event handler in Javascript and by applying styling to the elements based on the click. The Github link also opens up in a new tab once clicked using a link element and a target of "_blank". 
+- **Result**: The user clicks on the start button, the game starts via the event listener as described above. Once they click on the piano keys, they change colour and play a sound as described above. Once they click on the dark mode button in the footer, the colour scheme of the entire page changes. This was achieved through an event handler in Javascript and by applying styling to the elements based on the click. The Github link also opens up in a new tab once clicked using a link element and a target of "_blank". 
 
 11. ### A button to enable the user to pick a colour theme for the website e.g. dark/light 
 - **Plan**: The user should have the option to be able to toggle between dark and light mode on the page depending on their preference. I want to provide them with a simple, clickable element that does just that. 
@@ -326,8 +325,8 @@ The score area was located on top of the piano and replaces the start button whe
 
 The [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) tool, which can be found in [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/Chrome) is a really useful tool for testing the performance, accesibility and overall correctness of a page. All you have to do to use it is right click on a page, click inspect and click into the Lighthouse extension. Once there, all you do is generate a report for each page of the website. The report gives an overall score of how your webpage has performed in the test and it will give areas for improvement. This should be repeated for Mobile and Desktop. The reports for Simon's Piano can be found below:
 
-* [Mobile](assets/testing/lighthouse-testing-desktop.pdf)
-* [Desktop](assets/testing/lighthouse-testing-mobile.pdf)
+* [Mobile](wireframes/testing/lighthouse/lighthouse-testing-mobile.pdf)
+* [Desktop](wireframes/testing/lighthouse/lighthouse-testing-desktop.pdf)
 
 ### Compatibility & Responsive Testing 
 #### Device Compatibility 
