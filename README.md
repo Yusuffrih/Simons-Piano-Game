@@ -137,7 +137,6 @@ I created mock ups for my page to fit into the main device types - Desktop, Tabl
 * A responsive design that accomodates multiple devices
 * The ability to play the game with the keyboard to give the player more of an authentic piano feeling
 * Instructions for what keys to use to play the piano keys
-* Feedback on how the player is doing - levels are tallied and displayed 
 * Button feedback for every button pressed or click they make through audio and visual
 * A button to enable the user to pick a colour theme for the website e.g. dark/light 
 
@@ -303,17 +302,7 @@ The score area was located on top of the piano and replaces the start button whe
 
 - **Result**: When it is the player's turn to input the key notes, the instructions on what keyboard keys to use are displayed in a container just beneath the piano and are easy to read. They dissapear when the players turn is over and then re-appear when the game is being played again.
 
-<!-- 10. Feedback on how the player is doing - levels are tallied and displayed 
-- **Plan**: 
-
-- **Implementation**:
-
-- **Test**:
-
-- **Result**: 
-    - Levels are tallied and displayed above the piano throughout the game. The players remaining taps are also tallied to let them know how many they have left to complete that level. -->
-
-11. ### Button feedback for every button pressed or click they make through audio and visual
+10. ### Button feedback for every button pressed or click they make through audio and visual
 - **Plan**: All of the clickable elements on the page should be interactive and should give the use feedback to let them know that their input has been picked up by the computer. 
 
 - **Implementation**: All the clickable elements on the page i.e. links, buttons, piano keys all have a hover states apllied to them via CSS which allows the user to know that they are clickable and interactive. 
@@ -323,7 +312,7 @@ The score area was located on top of the piano and replaces the start button whe
 - **Result**: 
     The user clicks on the start button, the game starts via the event listener as described above. Once they click on the piano keys, they change colour and play a sound as described above. Once they click on the dark mode button in the footer, the colour scheme of the entire page changes. This was achieved through an event handler in Javascript and by applying styling to the elements based on the click. The Github link also opens up in a new tab once clicked using a link element and a target of "_blank". 
 
-12. ### A button to enable the user to pick a colour theme for the website e.g. dark/light 
+11. ### A button to enable the user to pick a colour theme for the website e.g. dark/light 
 - **Plan**: The user should have the option to be able to toggle between dark and light mode on the page depending on their preference. I want to provide them with a simple, clickable element that does just that. 
 
 - **Implementation**: I placed an icon in the footer with the labelling text to let the player know exactly what it's function was. I set up an event handler in the Javascript code to listen to clicks on the element and then apply the colour theme change class to the elements of the document that needed to change in order to implement the colour scheme change. When the player clicks the button again, they can toggle back to dark mode if they please.
