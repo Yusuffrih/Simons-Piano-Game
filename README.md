@@ -268,14 +268,13 @@ The score area was located on top of the piano and replaces the start button whe
 - **Result**: The notes are played when the player clicks the piano keys. This is a nice feature to give a realistic piano feel to the player. When the player clicks a key more than once in quick succession, the note restarts immediately on each click rather than having to wait for the first itteration to finish playing.
 
 6. Footer which provides the user a link to the site owners Github profile
-- **Plan**: 
+- **Plan**: The footer of the page should include a link to the developer's Github profile page. 
 
-- **Implementation**:
+- **Implementation**: Add a link element to the footer section of the html and include the url to the page and ensure that it opens in a new tab by adding a target attribute with a value of "_blank". I also made the link display as a Github icon. 
 
-- **Test**:
+- **Test**: When the user lands on the page, they should see the Github icon in the footer and when they click this, it should open the profile page in a new tab. 
 
-- **Result**: 
-    - There is a link to the site owners GitHub profile in the footer of the page which opens a new tab for the user.
+- **Result**: There is a link to the site owners GitHub profile displayed as a Github icon in the footer of the page which opens a new tab for the user.
 
 7. A responsive design that accomodates multiple devices
 - **Plan**: 
