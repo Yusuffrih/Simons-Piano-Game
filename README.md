@@ -313,25 +313,24 @@ The score area was located on top of the piano and replaces the start button whe
 - **Result**: 
     - Levels are tallied and displayed above the piano throughout the game. The players remaining taps are also tallied to let them know how many they have left to complete that level. -->
 
-11. Button feedback for every button pressed or click they make through audio and visual
-- **Plan**: 
+11. ### Button feedback for every button pressed or click they make through audio and visual
+- **Plan**: All of the clickable elements on the page should be interactive and should give the use feedback to let them know that their input has been picked up by the computer. 
 
-- **Implementation**:
+- **Implementation**: All the clickable elements on the page i.e. links, buttons, piano keys all have a hover states apllied to them via CSS which allows the user to know that they are clickable and interactive. 
 
-- **Test**:
-
-- **Result**: 
-    - The start button has a hover state, the piano keys display a pointer cursor when the game is live and change colour when they are pressed to let the user know that their click has registered.
-
-12. A button to enable the user to pick a colour theme for the website e.g. dark/light 
-- **Plan**: 
-
-- **Implementation**:
-
-- **Test**:
+- **Test**: The user clicks on the start button, the game should start via the event listener as described above. Once they click on the piano keys, they should change colour and play a sound as described above. Once they click on the dark mode button in the footer, the colour scheme of the entire page changes. This was achieved through an event handler in Javascript and by applying styling to the elements based on the click. The Github link also opens up in a new tab once clicked using a link element and a target of "_blank". 
 
 - **Result**: 
-    - When the colour theme button is pressed, the page goes from being predominantly a dark page to being predominantly a white page. When the button is pressed again, the page turns back to being predominantly dark again. 
+    The user clicks on the start button, the game starts via the event listener as described above. Once they click on the piano keys, they change colour and play a sound as described above. Once they click on the dark mode button in the footer, the colour scheme of the entire page changes. This was achieved through an event handler in Javascript and by applying styling to the elements based on the click. The Github link also opens up in a new tab once clicked using a link element and a target of "_blank". 
+
+12. ### A button to enable the user to pick a colour theme for the website e.g. dark/light 
+- **Plan**: The user should have the option to be able to toggle between dark and light mode on the page depending on their preference. I want to provide them with a simple, clickable element that does just that. 
+
+- **Implementation**: I placed an icon in the footer with the labelling text to let the player know exactly what it's function was. I set up an event handler in the Javascript code to listen to clicks on the element and then apply the colour theme change class to the elements of the document that needed to change in order to implement the colour scheme change. When the player clicks the button again, they can toggle back to dark mode if they please.
+
+- **Test**: When the player clicks the button, they should be able to toggle back and forth between dark mode and light mode. The background photo should change, the background colour and font colour of the all the elements displaying on the page should switch to black if white and white if black. 
+
+- **Result**: When the colour theme button is pressed, the page goes from being predominantly a dark page to being predominantly a white page. When the button is pressed again, the page turns back to being predominantly dark again. 
 
 
 ### Lighthouse Testing
