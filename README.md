@@ -294,7 +294,16 @@ The score area was located on top of the piano and replaces the start button whe
 
 - **Result**: The player can play the piano keys through their keyboard which allows for a more realistic piano playing experience. The keys change colour as well which provides for player feedback and makes it easier for them to follow what they are doing on screen.
 
-9. Instructions for what keys to use to play the piano keys
+9. ### Instructions for what keys to use to play the piano keys
+- **Plan**: When the player presses the start button, they should be immediately provided with instructions of how to play the game using the keyboard keys. I also want to provide them with instructions of how many clicks they need to input to finish the level. 
+
+- **Implementation**: Created a div in the html that appears at the bottom of the piano container when the start button is pressed so that the user can understand what keys on the keyboard they need to press to play the game correctly. These key instructions come up everytime it's the user's turn to play the game and disappear only to display a positive message if they get the right pattern.
+
+- **Test**: Play the game and the instructions for the keys should appear beneath the piano keys. When the player inputs the correct pattern, the instructions should disappear to make way for the positive feedback if they have input the correct pattern. The instructions should then re-appear once the game is back in play. 
+
+- **Result**: When it is the player's turn to input the key notes, the instructions on what keyboard keys to use are displayed in a container just beneath the piano and are easy to read. They dissapear when the players turn is over and then re-appear when the game is being played again.
+
+<!-- 10. Feedback on how the player is doing - levels are tallied and displayed 
 - **Plan**: 
 
 - **Implementation**:
@@ -302,17 +311,7 @@ The score area was located on top of the piano and replaces the start button whe
 - **Test**:
 
 - **Result**: 
-    - When it is the player's turn to input the key notes, the instructions on what keyboard keys to use are displayed in a container just beneath the piano and are easy to read. They dissapear when the players turn is over and when the game is not live so as to keep the landing page simple and provide a good UX.
-
-10. Feedback on how the player is doing - levels are tallied and displayed 
-- **Plan**: 
-
-- **Implementation**:
-
-- **Test**:
-
-- **Result**: 
-    - Levels are tallied and displayed above the piano throughout the game. The players remaining taps are also tallied to let them know how many they have left to complete that level.
+    - Levels are tallied and displayed above the piano throughout the game. The players remaining taps are also tallied to let them know how many they have left to complete that level. -->
 
 11. Button feedback for every button pressed or click they make through audio and visual
 - **Plan**: 
