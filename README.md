@@ -277,14 +277,13 @@ The score area was located on top of the piano and replaces the start button whe
 - **Result**: There is a link to the site owners GitHub profile displayed as a Github icon in the footer of the page which opens a new tab for the user.
 
 7. A responsive design that accomodates multiple devices
-- **Plan**: 
+- **Plan**: The website needs to be responsive to different screen sizes so that it looks good and provides a positive user experience no matter what the size of the screen or type of device. 
 
-- **Implementation**:
+- **Implementation**: To provide for responsive design, Bootstrap's grid layout was used to create a proportionate layout on the screen at different breakpoints. I also used some custom breakpoints to change the font sizes at different screen widths to ensure that everything fit on the right lines and looked right. 
 
-- **Test**:
+- **Test**: [Chrome dev tools](https://developer.chrome.com/docs/devtools/) testing would be the easiest way to test out the different screen sizes. It needed to look good at all different screen widths and sizes.  
 
-- **Result**: 
-    - The responsive design is fully functional across all device sizes. Testing here was done through the Chrome developer tools which was really handy for quickly checking how the different devices would display the page. The responsive design was achieved through Bootstrap's grid system
+- **Result**: The responsive design is fully functional across all device sizes. All the different screen sizes and all of the different elements look good and fit just right. 
 
 8. The ability to play the game with the keyboard to give the player more of an authentic piano feeling
 - **Plan**: 
