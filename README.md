@@ -221,29 +221,122 @@ I created mock ups for my page to fit into the main device types - Desktop, Tabl
 
 
 ### Feature Testing 
-* Title/heading sections at the top of the page
-    - Header of the page is displayed at the top of the page does not get distorted at any screen size. I have added some icons to the page header to add some style and provide nice UI 
-* Start button to begin the game
-    - The start button on the page looks well, is easy to see and works as it is intended
-* Score area outlining the score and the level the user has reached
-    - The score area is located on top of the piano and replaces the start button when pressed. This brings the users attention to this and allows them to keep track of how many levels they have got past and how many correct taps they have to input to get to the next level
-* Interactive black and white piano keys
+1. ### **Game Title**
+- **Plan**: The plan on this was simply to display the header/title of the game at the top of the page so that it's the first thing that the user sees when they land on the page
+
+- **Implementation**: To implement this, I created a header section and place a h1 tag inside it. Once this was done, I used bootstraps built in grid structure and made the header tag a row and gave it the class of justify content center. This ensures that the content in the row in centered and remains centered no matter what the width of the screen is. 
+
+- **Test**: The test for this feature was visual initially. Just by landing on the page as if I were the user, I ensured that the title was in the middle of the page. To ensure that this was the case for all screen sizes, I used [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en). 
+
+- **Result**: Header of the page is displayed at the top of the page does not get distorted at any screen size. included in the header are some music icons to add some style and provide a nice UI 
+
+2. ### **Start button**
+- **Plan**: When the player has landed on the page, they should very quickly see and understand what they are looking at. There are very few elements visible and one of them is the start button. When they click the button, the game obviously is started and this triggers the first level of the game.
+
+- **Implementation**: When implementing the start button, it was of course quite simple from a html and css perspective to create and design. From a Javascript, it needed to trigger the game's first level. I put in an event handler to listen to a click on the element and trigger the begin game funciton when it hears this. 
+
+- **Test**: This feature was quite simple to test again. Visually, the button looks good in all screen sizes, is very easy to spot and is very easy for the player to figure out what it does. To test whether the button works or not, I landed on the page and clicked the button.
+
+- **Result**: The start button on the page looks well, is easy to see and works as it is intended in that it triggers the begin game function once clicked. 
+
+3. Score area outlining the score and the level the user has reached
+- **Plan**: 
+
+- **Implementation**:
+
+- **Test**:
+
+- **Result**: 
+The score area is located on top of the piano and replaces the start button when pressed. This brings the users attention to this and allows them to keep track of how many levels they have got past and how many correct taps they have to input to get to the next level
+
+4. Interactive black and white piano keys
+- **Plan**: 
+
+- **Implementation**:
+
+- **Test**:
+
+- **Result**: 
     - The piano keys are fully interactive but only when the game is live i.e. The player presses the start button. When the player has their mouse hovered over the piano keys during the game, their cursor will display as a pointer letting them know that they can click. Also, when the keys are clicked, they change colour for the duration of the note audio. 
-* Musical audio notes attached to the corresponding piano keys
+
+5. Musical audio notes attached to the corresponding piano keys
+- **Plan**: 
+
+- **Implementation**:
+
+- **Test**:
+
+- **Result**: 
     - The notes are played when the player clicks the piano keys. This is a nice feature to give a realistic piano feel to the player. When the player clicks a key more than once in quick succession, the note restarts immediately on each click rather than having to wait for the first itteration to finish playing.
-* Footer which provides the user a link to the site owners Github profile
+
+6. Footer which provides the user a link to the site owners Github profile
+- **Plan**: 
+
+- **Implementation**:
+
+- **Test**:
+
+- **Result**: 
     - There is a link to the site owners GitHub profile in the footer of the page which opens a new tab for the user.
-* A responsive design that accomodates multiple devices
+
+7. A responsive design that accomodates multiple devices
+- **Plan**: 
+
+- **Implementation**:
+
+- **Test**:
+
+- **Result**: 
     - The responsive design is fully functional across all device sizes. Testing here was done through the Chrome developer tools which was really handy for quickly checking how the different devices would display the page. The responsive design was achieved through Bootstrap's grid system
-* The ability to play the game with the keyboard to give the player more of an authentic piano feeling
+
+8. The ability to play the game with the keyboard to give the player more of an authentic piano feeling
+- **Plan**: 
+
+- **Implementation**:
+
+- **Test**:
+
+- **Result**: 
     - The player can play the piano keys through their keyboard which allows for a more realistic piano playing experience.
-* Instructions for what keys to use to play the piano keys
+
+9. Instructions for what keys to use to play the piano keys
+- **Plan**: 
+
+- **Implementation**:
+
+- **Test**:
+
+- **Result**: 
     - When it is the player's turn to input the key notes, the instructions on what keyboard keys to use are displayed in a container just beneath the piano and are easy to read. They dissapear when the players turn is over and when the game is not live so as to keep the landing page simple and provide a good UX.
-* Feedback on how the player is doing - levels are tallied and displayed 
+
+10. Feedback on how the player is doing - levels are tallied and displayed 
+- **Plan**: 
+
+- **Implementation**:
+
+- **Test**:
+
+- **Result**: 
     - Levels are tallied and displayed above the piano throughout the game. The players remaining taps are also tallied to let them know how many they have left to complete that level.
-* Button feedback for every button pressed or click they make through audio and visual
+
+11. Button feedback for every button pressed or click they make through audio and visual
+- **Plan**: 
+
+- **Implementation**:
+
+- **Test**:
+
+- **Result**: 
     - The start button has a hover state, the piano keys display a pointer cursor when the game is live and change colour when they are pressed to let the user know that their click has registered.
-* A button to enable the user to pick a colour theme for the website e.g. dark/light 
+
+12. A button to enable the user to pick a colour theme for the website e.g. dark/light 
+- **Plan**: 
+
+- **Implementation**:
+
+- **Test**:
+
+- **Result**: 
     - When the colour theme button is pressed, the page goes from being predominantly a dark page to being predominantly a white page. When the button is pressed again, the page turns back to being predominantly dark again. 
 
 
