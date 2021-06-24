@@ -176,7 +176,6 @@ I created mock ups for my page to fit into the main device types - Desktop, Tabl
 
 ### User Story Testing
 * As a user, I would like to be able to choose when I start the game so that I am in control
-
     - When the user lands on the page, the game does not start automatically. The user gets a chance to consume what is displayed on screen and has to click on the start button above the piano keys to start the game. 
 
 * As a user, I would like to track my score throughout the game
