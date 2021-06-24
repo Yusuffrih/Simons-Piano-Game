@@ -408,9 +408,9 @@ During the development of this game, there were many bugs that were overcome. Be
 To deplow the site, the following steps were taken: 
 1. Opened Github repository
 2. Opened settings 
-3. Click into 'Pages' section on the side menu
+3. Click into **Pages** section on the side menu
 4. Clicke into Branches
-5. Selected 'Master Branch'
+5. Selected **Master Branch**
 6. Clicked save
 7. Refreshed page
 8. Await confirmation of deployment to Github Pages
@@ -418,7 +418,7 @@ To deplow the site, the following steps were taken:
 ### Run Locally
 To run the project locally, follow these simple steps:
 1. Open the Repository
-2. Click on the 'Code' button beside the green Gitpod button
+2. Click on the **Code** button beside the green Gitpod button
 3. Click into the HTTPS tab
 4. Copy the URL available
 5. Open your local IDE
