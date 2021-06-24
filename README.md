@@ -176,6 +176,7 @@ I created mock ups for my page to fit into the main device types - Desktop, Tabl
 
 ### User Story Testing
 * As a user, I would like to be able to choose when I start the game so that I am in control
+
     - When the user lands on the page, the game does not start automatically. The user gets a chance to consume what is displayed on screen and has to click on the start button above the piano keys to start the game. 
 
 * As a user, I would like to track my score throughout the game
@@ -397,9 +398,15 @@ During the development of this game, there were many bugs that were overcome. Be
 #### Fix 6 
 * Added code snippet from Stack Overflow to display the background image in the Safari browser. This code snippet was a media query that targeted Safari specifically to allow that code to be rendered. All other CSS other than the images rendered as expected without the use of this media query. This code also threw up an error in Gitpod, however, when I ran the code through the css validator, it didn't give the same error. Also, if I tried to get rid of the error by removing the second media quey, the code didn't work anymore.
 
+#### Bug 7
+* There was a bug in safari that the audio files did not play quite how they were expected to. There was a slight delay in the notes being played. 
+
+#### Fix 7 
+* Unfortunately, due to time constraints I did not get around to fixing this bug.
+
 ## Deployment
 ### Github Pages
-After the coding and testing was complete, and the website was ready for deployment, the following steps were taken: 
+To deplow the site, the following steps were taken: 
 1. Opened Github repository
 2. Opened settings 
 3. Click into 'Pages' section on the side menu
@@ -407,9 +414,7 @@ After the coding and testing was complete, and the website was ready for deploym
 5. Selected 'Master Branch'
 6. Clicked save
 7. Refreshed page
-8. Awaite confirmation of deployment to Github Pages
-
-Github Pages URL is then provided: https://yusuffrih.github.io/Simons-Piano-Game/
+8. Await confirmation of deployment to Github Pages
 
 ### Run Locally
 To run the project locally, follow these simple steps:
