@@ -170,6 +170,7 @@ I created mock ups for my page to fit into the main device types - Desktop, Tabl
 * [Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=en) - One of the Chrome Dev Tools which was used to assess the level of accessibility, performance and correctness that was provided by the site.
 * [JS Fiddle](https://jsfiddle.net/) - An online playground IDE used to test and trial Javascript code with HTML and CSS
 * [Youtube](https://www.youtube.com/) - Youtube videos are a great way to learn how to do different things if stuck on a particular piece of code
+* [Favicon](https://favicon.io/) - An online tool that generates the icon that is found in the tab bar at the top of the page beside the title of the page. 
 
 
 ## Testing
@@ -463,7 +464,7 @@ To run the project locally, follow these simple steps:
 
 #### Images:
 * [Pexels](https://www.pexels.com/) was where I went to get the two [background images](assets/images/background) for the webpage. 
-They can be found [here](https://www.pexels.com/photo/close-up-shot-of-upright-piano-grayscale-photo-164715/) and [here](https://www.pexels.com/photo/selective-focus-photography-of-upright-piano-164769/).
+They can be found [here](https://www.pexels.com/photo/close-up-shot-of-upright-piano-grayscale-photo-164715/), [here](https://www.pexels.com/photo/selective-focus-photography-of-upright-piano-164769/) and the favicon image can be found [here](https://www.pexels.com/photo/close-up-of-tiled-floor-258805/).
 
 ## Final Comments
 
