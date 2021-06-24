@@ -156,10 +156,10 @@ I created mock ups for my page to fit into the main device types - Desktop, Tabl
 * [Bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/) 4 - A front-end framework which assist me in creating responsive website design
 * [Google Fonts](https://fonts.google.com/) - An open-source online library of thousands of fonts and icons that were free and easy to use.
 * [Font Awesome](https://fontawesome.com/) - An open source online library of icons which I used for extra styling.
-* [Pexels](https://www.pexels.com/) - Online library of stock photos for use for free.
 
 ### Tools
 * [Coolors](https://coolors.co/) - Used this to generate a colour scheme that matched what I wanted for the site.
+* [Pexels](https://www.pexels.com/) - Online library of stock photos for use for free.
 * [Balsamic](https://balsamiq.com/) - Software used to complete the wireframes. This was much easier than trying to draw.
 * [Git](https://en.wikipedia.org/wiki/Git) - System used version control.
 * [GitHub](https://github.com/) - This is where my project repository was stored.
